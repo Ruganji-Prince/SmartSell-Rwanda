@@ -1,0 +1,151 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=22mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,booktabs,tabularx,array,amsmath,amssymb,enumitem,fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parindent}{0pt}\setlength{\parskip}{6pt}
+\setlist[itemize]{leftmargin=*,itemsep=3pt,topsep=3pt}
+\renewcommand{\arraystretch}{1.16}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small 04-652 / Assignment 2}\fancyhead[R]{\small Phase 1: Strategy}\fancyfoot[C]{\thepage}
+\setlength{\headheight}{14pt}
+\newcommand{\titleblock}[2]{\begin{center}{\small CARNEGIE MELLON UNIVERSITY AFRICA}\par\vspace{8pt}{\LARGE\bfseries #1}\par\vspace{6pt}{\large #2}\par\vspace{8pt}Jean Gabriel Mpuhwezimana\\18 October 2026\end{center}\vspace{5pt}\hrule\vspace{8pt}}
+\begin{document}
+\titleblock{Preprocessing \& Feature Engineering}{Multi-Crop Sell-Timing Advisor for Rwanda}
+\section*{1. Problem, task and scope}
+Smallholder farmers must balance possible price increases against storage losses and costs. The proposed system forecasts market prices and compares estimated net revenue from selling today with waiting. The project aims to support SDG 2 and SDG 12.3 by helping farmers make informed selling decisions and reduce avoidable postharvest losses. Phase 1 examines data quality and defines the preprocessing strategy for price prediction.
+
+\textbf{ML task: regression.} At forecast origin $t$, predict the observed price $Y_{c,m,t,h}=p_{c,m,t+h}$ in RWF/kg for crop $c$, market $m$ and horizon $h\in\{1,2,3\}$ calendar days. Training examples will use prices observed on the exact target date. Examples without an observed future price will be excluded.
+
+The initial data audit covers tomatoes and carrots. The system is designed to accommodate cabbage, red onions and Irish potatoes as additional crops once their historical exports have been assessed. Each crop will retain its own market history and storage assumptions.
+
+\begin{tabularx}{\textwidth}{@{}lLL@{}}\toprule
+Crop & Role in the project & Data requirement\\\midrule
+Tomatoes & Initial model development & Available export audited\\
+Carrots & Multi-crop extension & Available export audited\\
+Cabbage & Planned expansion & Historical export and coverage audit\\
+Red onions & Planned expansion & Separate history from white onions\\
+Irish potatoes & Planned expansion & Kinigi Grade 2 history assessed separately\\\bottomrule
+\end{tabularx}
+
+\textbf{Candidate architecture.} A single pooled XGBoost regressor uses crop, market, price history and horizon. It is compared with persistence ($\hat p_{t+h}=p_t$) and the existing histogram-boosting model. Model selection will use chronological validation. Training labels will come from observed prices, while storage losses will be represented by crop-specific assumptions in a separate revenue calculation.
+\[
+\widehat R(h)=Q\,\widehat p_{t+h}\,v_c(h;s)-C(h),\qquad
+h^*=\arg\max_{h\in\{0,1,2,3\}}\widehat R(h).
+\]
+Here $Q$ is current saleable quantity, $v_c$ is an explicitly assumed retained-value fraction for crop and storage scenario $s$, with $v_c(0;s)=1$, and $C$ contains relevant costs. Price data cannot validate $v_c$. Recommendations remain scenario-based until storage and outcome evidence exists. The system will withhold recommendations when the available price history is insufficient or outdated.
+\newpage
+\section*{2. Dataset audit and metadata inventory}
+\textbf{Source.} The datasets are CSV exports from TangaBid, with Esoko Rwanda identified as the source of the observations. Both contain farmgate prices in RWF/kg. Data access: \url{https://tangabid.com/data-access/}. The original exports are retained unchanged for reproducibility.
+
+\begin{tabularx}{\textwidth}{@{}Lrr@{}}\toprule
+Measured quantity & Tomatoes & Carrots\\\midrule
+Raw matrix ($N\times P$) & $3,524\times12$ & $3,552\times12$\\
+Markets (region/location keys) & 56 & 57\\
+Conflicting rows quarantined & 2 & 3\\
+Redundant equal-price rows removed & 416 & 389\\
+Clean observations after these rules & 3,106 & 3,160\\
+Observed 1-day target pairs & 1,022 & 1,039\\
+Observed 2-day target pairs & 951 & 961\\
+Observed 3-day target pairs & 1,165 & 1,191\\
+Raw observed-price skewness & 0.651 & 9.577\\\bottomrule
+\end{tabularx}
+
+Both exports span 1 January 2025--14 October 2026, with no observations in August--October 2025. The available combined raw matrix is $7,076\times12$; the cleaned two-crop pool has 6,266 observations. These counts are not the final training sample size. The exact-date joins yield 6,329 horizon-specific examples before split purging and eligibility filtering.
+
+\textbf{Baseline missingness.} In tomatoes, \texttt{variety} and \texttt{grade} each have 3,524 missing values (100\%); in carrots, each has 3,552 (100\%). Every other column has zero missing values in both exports. Each matrix is 16.67\% missing overall, with zero complete rows and all rows having at least one missing cell. This is concentrated metadata absence, not missing observed prices.
+
+\begin{tabularx}{\textwidth}{@{}lLL@{}}\toprule
+Column(s) & Semantic type & Planned treatment\\\midrule
+\texttt{price} & Continuous measurement & Current price input; future joined price is target\\
+\texttt{observed\_date} & Datetime & Sort, joins and calendar features\\
+\texttt{scraped\_at} & Datetime / provenance & Exclude from predictor; retain for availability audit\\
+\texttt{product} & Nominal & Normalize labels; preserve crop identity\\
+\texttt{location, region} & Nominal & Combined market key; retain region in metadata\\
+\texttt{unit, currency, channel} & Nominal & Validate compatibility; drop constants from model\\
+\texttt{source} & Nominal & Provenance; drop if constant\\
+\texttt{variety} & Nominal, entirely absent & Exclude from initial predictors\\
+\texttt{grade} & Potential ordinal, entirely absent & Exclude until grade definitions are available\\\bottomrule
+\end{tabularx}
+
+There are no observed discrete-count variables. All 12 raw columns are accounted for; $P=12$ is not the number of model predictors. Raw-price skewness is descriptive, not the skewness of the future-price training target; the latter must be measured after temporal splitting, separately by crop and horizon.
+\newpage
+\section*{3. Cleaning, missingness and outliers}
+\textbf{Identity and duplicates.} Records will be identified by keys constructed from product, region, location, unit, currency, channel, date and available variety/grade. Identical-price records with the same key will be collapsed. Conflicting prices will be isolated for review because averaging them could conceal recording errors. Required fields, dates and positive numerical prices will be validated. The label ``Tomatos'' will be standardized to ``Tomato'' in the working dataset.
+
+\textbf{Missingness diagnosis.} Entirely absent variety/grade suggests a collection-schema omission. Its statistical MCAR/MAR/MNAR mechanism cannot be established from these exports; imputation would fabricate crop attributes. Potato records will retain product identifiers that specify variety and grade. Missing observation dates may depend on observed market/calendar factors (a MAR hypothesis) or unobserved supply/price shocks (MNAR remains possible). MCAR is not assumed. Missingness will be summarized by market and month; history-age and observation-count indicators will describe the available information.
+
+\textbf{Imputation choices.} Targets will not be imputed, and gaps in the price series will not be filled with repeated prices. Lag features will use previous observations and their ages; observations older than seven days will initially be treated as missing inputs. Numerical inputs will be imputed using crop-specific training medians, with the overall training median as a fallback. Missingness indicators will accompany these features. Median is less sensitive to the observed right tails than the mean. KNN imputation is not selected because distance design and cross-series mixing add complexity without supporting evidence. Mode cannot recover entirely absent metadata. Crop/market identifiers are required, not imputed.
+
+\textbf{Outlier rule.} Crop-specific quartiles will be estimated from training data, with market-specific estimates where sample size permits. Prices will be flagged outside
+\[
+[Q_1-1.5\,\mathrm{IQR},\ Q_3+1.5\,\mathrm{IQR}],\quad \mathrm{IQR}=Q_3-Q_1.
+\]
+These are investigation thresholds, not evidence of error. A pooled threshold across crops would mix price scales. A $|z|>3$ diagnostic will be considered only for approximately Gaussian distributions.
+
+\textbf{Observed carrot outlier.} Congonil has a price of RWF 6,000/kg on 10 July 2026, appearing twice. Duplicate removal retains one observation. The value needs source verification; it is not automatically deleted. Carrot raw quartiles are 400 and 600 RWF/kg, but full-data quartiles must not become fitted preprocessing thresholds.
+
+\textbf{Treatment decision.} Plausible market shocks will be retained. Verified recording errors will be corrected from the source, while unresolved errors will be isolated. Input capping will be compared with retaining extreme values during training-fold validation. Any capping bounds will be learned from training data, and the original values and outlier flags will be retained. Held-out targets will remain unchanged. The initial tree-model pipeline will use uncapped inputs.
+
+\textbf{Target distribution.} The regression task will use observed targets without class resampling. MAE will be reported by crop and horizon, together with an average that weights crops equally. A log-price target will be evaluated if training-target skewness warrants it. Predictions will be converted back to RWF/kg for comparison, with attention to retransformation bias.
+\newpage
+\section*{4. Features, statistical tests and transformations}
+\textbf{Planned features (17 before encoding).} Crop and market identities; current price; three previous-observation prices; their three ages; trailing seven-calendar-day mean, standard deviation and count; previous relative price change; month sine/cosine; day of week; and horizon. Each historical feature is computed inside a crop--market--product-specification series using observations available at the forecast origin. Previous observations are not assumed to be previous days. Derived discrete variables include count and horizon.
+
+\begin{tabularx}{\textwidth}{@{}p{34mm}LL@{}}\toprule
+Feature--target pair & Planned assessment & Rationale / restriction\\\midrule
+Continuous history vs. future price & Spearman; Pearson as companion & Rank association tolerates skew; Pearson screens linear relations\\
+Count, age, horizon vs. future price & Spearman and mutual information & Capture ordered and nonlinear dependence\\
+Crop/market vs. future price & Group summaries; discrete-feature mutual information & Nominal identifiers have no numeric distance\\
+Binary missingness vs. future price & Point-biserial and group summaries & Binary input with continuous outcome\\
+Verified ordered grade vs. future price & Spearman only if ordering established & Not applicable to current missing grade columns\\
+Datetime vs. future price & Calendar features and temporal plots & No correlation on arbitrary timestamp integers\\\bottomrule
+\end{tabularx}
+
+Associations will be assessed within training folds and examined separately by crop and horizon to distinguish temporal relationships from differences in crop price levels. Serial dependence makes ordinary independent-sample $p$-values unreliable; descriptive effect sizes will therefore be emphasized, with temporal block resampling if inference is needed. Chi-square is inappropriate for an unbinned continuous target. ANOVA is optional only with defensible assumptions, not a default ranking method.
+
+\textbf{Multicollinearity.} Numerical predictors will be screened using $|r|\geq0.85$ (Pearson and Spearman). When removing a redundant feature, preference will be given to stronger training-fold association, lower missingness, interpretability and stable validation performance. For a linear comparator, VIF $>10$ will flag multicollinearity in the numerical design, excluding the intercept and redundant dummy columns. Tree models do not require automatic removal of all correlated lags; feature removal will therefore depend on validation results.
+
+\textbf{Encoding.} Crop and market will be one-hot encoded using categories learned from the training fold, with unknown categories ignored during transformation. Unseen crop--market combinations remain outside supported deployment coverage even if the encoder can process them. One-hot encoding keeps the pipeline straightforward and avoids the additional leakage controls needed for target encoding. Potato product specifications will be preserved as categorical attributes.
+
+\textbf{Scaling and dimensionality.} Numerical inputs will remain unscaled for XGBoost and histogram trees because tree splits do not require standardized feature scales. A separate linear/PCA diagnostic branch will standardize training-imputed inputs. Min--max and log transformations will be examined for their effects on distributions. PCA will be used to describe dimensionality through its 90\% and 95\% variance cutoffs, calculated from training data, while the main model retains interpretable temporal features. Final encoded dimensionality is measured in Phase 2.
+\newpage
+\section*{5. Temporal partitioning and leakage prevention}
+\textbf{Partition rule.} Unique forecast-origin dates will be sorted and allocated as follows: the earliest 70\% to training, the next 15\% to validation and the final 15\% to test (integer boundaries by floor). All crops and markets on a date share the same partition. Ratios apply to distinct dates; resulting row percentages can differ. Training examples whose target dates reach the validation period will be removed, as will validation examples whose targets reach the test period. Exact split dates are recorded after all accepted exports are frozen.
+
+\textbf{Validation.} Three expanding-window folds within the training period will support a small XGBoost hyperparameter search. Target-date purging will be applied at each boundary. Imputation, encoding, optional capping, feature selection and scaling will be fitted separately within each fold. The subsequent validation block will support final model selection, followed by evaluation on the test block.
+
+\textbf{Evaluation limitation.} Preliminary tomato experiments have already used part of the available history for evaluation. Results that reuse this period will be treated as exploratory. Independent confirmation will require a new future period collected after model choices have been fixed.
+
+\textbf{Grouping rationale.} The intended task forecasts future prices in previously observed markets, so the same market may occur across chronological partitions. Random row splitting, stratified regression splitting and random GroupKFold do not match this task. Generalization to an unseen market would need a separate grouped temporal experiment and is not claimed here.
+
+\textbf{Availability restriction.} Observed dates do not guarantee same-day publication. Scrape timestamps will be retained to investigate collection latency. Historical evaluation will be conditional on origin-date price availability until publication times are verified. Feature construction will use earlier available information and exclude centered windows, future interpolation and future regional averages.
+
+\textbf{Training-only eligibility.} The initial eligibility rule requires at least 20 observed training pairs per requested horizon in each crop--market series. This is a pragmatic screening threshold, not a guarantee of statistical reliability. Eligible series will be selected before evaluation, and sample counts will accompany each metric. Crop--horizon combinations without evaluation observations will be excluded from performance comparisons. Sensitivity to the initial seven-day staleness threshold will be examined within training folds.
+
+\textbf{Pipeline boundary.} Raw validation and deterministic identity cleaning $\rightarrow$ as-of historical features and exact-date labels $\rightarrow$ temporal partitions and target-date purging $\rightarrow$ training-only eligibility $\rightarrow$ fold-fitted ColumnTransformer/Pipeline $\rightarrow$ model $\rightarrow$ held-out metrics. Label construction is separate from feature construction. Cutoffs, feature names, crop identities and fitted objects will be stored for reproducibility.
+
+\textbf{Metrics.} Evaluation will report MAE and RMSE in RWF/kg, observation counts by crop and horizon, and macro-averaged MAE. Persistence and histogram boosting will provide benchmarks. Revenue simulations will compare recommendations with selling immediately under documented storage-loss scenarios. These simulations estimate decision outcomes rather than measure realized farmer profits.
+\newpage
+\section*{6. Implementation plan}
+The preprocessing pipeline will be implemented using Scikit-Learn's \texttt{ColumnTransformer} and \texttt{Pipeline}. Reusable modules will separate data validation, historical feature construction and fitted transformations. The raw exports and audit outputs will provide a reproducible record of the initial dataset.
+
+Implementation will proceed in three stages:
+\begin{enumerate}[leftmargin=*,itemsep=5pt]
+\item \textbf{Complete crop-level data preparation.} Apply the same audit to additional crop exports, resolve conflicting observations and investigate flagged prices. Select crop--market series with sufficient historical coverage.
+\item \textbf{Build and diagnose the preprocessing pipeline.} Generate temporal features and targets, apply chronological partitions, and fit transformations within training folds. Examine missingness, target distributions, outliers, correlations, feature associations, transformations and PCA diagnostics.
+\item \textbf{Evaluate forecasting and decision scenarios.} Compare XGBoost with the baseline methods by crop and horizon. Use the selected forecasts in the revenue calculation and examine how recommendations change under different storage-loss assumptions.
+\end{enumerate}
+
+The main data limitations are irregular reporting, absent variety and grade metadata, and the lack of measured storage-loss outcomes. These limitations motivate exact-date target matching, crop-specific analysis and transparent scenario assumptions. The planned expansion to five crops will use the same preprocessing framework, with crop inclusion determined by the quality and temporal coverage of each dataset.
+
+\section*{References and data access}
+\begin{enumerate}[leftmargin=*,itemsep=7pt]
+\item 04-652 Artificial Intelligence System Design, \emph{Assignment 2: Data Preprocessing}, supplied course handout, pp. 2--9. Course assignment specification.
+\item TangaBid, \emph{Data Access}. \url{https://tangabid.com/data-access/}. Tomato and carrot exports audited on 18 October 2026; source field: Esoko Rwanda.
+\item TangaBid crop listings: cabbage, \url{https://www.tangabid.com/market/prices/?product=62}; red onions, \url{https://www.tangabid.com/market/prices/?product=5}; Irish potato Kinigi Grade 2, \url{https://www.tangabid.com/market/prices/?product=3}. Listings checked on 18 October 2026; full exports not audited.
+\item T. Chen and C. Guestrin, ``XGBoost: A Scalable Tree Boosting System,'' KDD, 2016. \url{https://arxiv.org/abs/1603.02754}.
+\item XGBoost documentation, \emph{Categorical Data}. \url{https://xgboost.readthedocs.io/en/stable/tutorials/categorical.html}. Native categorical handling is an alternative; this strategy chooses explicit one-hot encoding for pipeline consistency.
+\end{enumerate}
+
+\end{document}

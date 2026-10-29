@@ -1,0 +1,6 @@
+observed_date,product,unit,variety,grade,channel,location,region,price,currency,source,scraped_at
+2026-04-14,Tomato,Kg,,,farmgate,Mubyangabo,Musanze,600.0,RWF,Esoko Rwanda,2026-04-16T08:52:39.753208+00:00
+2026-04-14,Tomato,Kg,,,farmgate,Mubyangabo,Musanze,420.0,RWF,Esoko Rwanda,2026-04-16T08:52:39.753211+00:00
+2026-07-10,Carrot,Kg,,,farmgate,Congonil,Rutsiro,6000.0,RWF,Esoko Rwanda,2026-07-11T06:06:33.376263+00:00
+2026-07-10,Carrot,Kg,,,farmgate,Congonil,Rutsiro,6000.0,RWF,Esoko Rwanda,2026-07-11T06:06:33.376553+00:00
+2026-07-10,Carrot,Kg,,,farmgate,Congonil,Rutsiro,400.0,RWF,Esoko Rwanda,2026-07-11T06:06:33.376706+00:00

@@ -1,0 +1,67 @@
+{
+  "frozen_artifact_checks": {
+    "data/raw/tangabid_market_prices.csv": true,
+    "data/raw/tangabid_market_prices_carrots.csv": true,
+    "models/metadata.json": true,
+    "models/selected_model.json": true,
+    "models/selection.json": true,
+    "SAS 2024_Annual Tables.xlsx": true,
+    "sell-time-estimation-aisd-main.zip": true,
+    "results/model_comparison.csv": true,
+    "results/forecast_metrics.csv": true,
+    "results/decision_metrics.csv": true,
+    "results/test_predictions.csv": true,
+    "results/validation_predictions.csv": true,
+    "results/decision_simulations.csv": true,
+    "results/decision_evaluation_protocol.json": true,
+    "results/interval_coverage.csv": true,
+    "results/split_summary.json": true,
+    "scripts/train_models.py": true,
+    "scripts/evaluate_models.py": true,
+    "src/forecasting.py": true,
+    "src/feature_engineering.py": true,
+    "src/preprocessing.py": true,
+    "src/nisr_context.py": true
+  },
+  "all_frozen_artifacts_unchanged": true,
+  "validated_decision_function_unchanged": true,
+  "tests": {
+    "tests": 45,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "demo_break_even_prices": [
+    {
+      "horizon": 1,
+      "break_even_price": 506.06060606060606,
+      "required_price_increase_rwf_kg": 6.060606060606062,
+      "required_price_increase_percent": 1.21212121212122,
+      "forecast_vs_break_even": "Forecast below break-even"
+    },
+    {
+      "horizon": 2,
+      "break_even_price": 512.1926334047547,
+      "required_price_increase_rwf_kg": 12.192633404754702,
+      "required_price_increase_percent": 2.4385266809509476,
+      "forecast_vs_break_even": "Forecast below break-even"
+    },
+    {
+      "horizon": 3,
+      "break_even_price": 518.3969065205674,
+      "required_price_increase_rwf_kg": 18.396906520567427,
+      "required_price_increase_percent": 3.6793813041134937,
+      "forecast_vs_break_even": "Forecast below break-even"
+    }
+  ],
+  "historical_demo_action": "SELL NOW",
+  "historical_demo_expected_gain_rwf": 0,
+  "interpretation": "Equality thresholds, not profitable minimum quotes; price must strictly exceed them. Loss scenarios are user assumptions, not NISR daily measurements.",
+  "optional_market_comparison": "Inspected: three markets per crop on latest 14 October date; omitted because observations are stale, no current market or travel recommendation.",
+  "historical_results": "Persistence; test MAE 41.245223 RWF/kg; 314 examples; 20 complete windows; 8.0321285% coverage; all scenarios SELL NOW; zero simulated gain. Unchanged.",
+  "publication_status": "READY FOR HUMAN-REVIEWED PUBLICATION as a historical prototype",
+  "push_performed": false,
+  "deployment_performed": false,
+  "video_created": false,
+  "passed": true
+}

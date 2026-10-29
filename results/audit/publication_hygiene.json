@@ -1,0 +1,27 @@
+{
+  "scanned_public_files": 115,
+  "findings": [],
+  "eligibility_files": [
+    "student_cards\\README.md"
+  ],
+  "machine_metadata_cleanup": [
+    {
+      "file": "results\\test_results.xml",
+      "removed_device_hostname_attributes": 1
+    },
+    {
+      "file": "results\\audit\\test_results.xml",
+      "removed_device_hostname_attributes": 1
+    }
+  ],
+  "scope": "Active and archived text, notebooks, LaTeX and original source ZIP; heuristic patterns, no comprehensive security guarantee",
+  "excluded_runtime_directories": [
+    ".git",
+    ".pytest_cache",
+    ".venv",
+    "__pycache__",
+    "dist"
+  ],
+  "duplicate_raw_data": "Original 323,989-byte development ZIP intentionally repeats preserved raw CSVs and legacy material; not duplicate analytic rows",
+  "unreadable_unused_pdf": "DHS2000_HIV.pdf has no extractable text and is unused. Public packaging will exclude this unrelated document; original remains untouched."
+}

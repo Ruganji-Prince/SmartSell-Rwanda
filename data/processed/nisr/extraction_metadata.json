@@ -1,0 +1,25 @@
+{
+  "workbook": "SAS 2024_Annual Tables.xlsx",
+  "sha256": "5c7c6024d9a7b766d9911348aa3b5d5316555c6aa4a8c53f10dc290e2d8906e6",
+  "tables": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+  ],
+  "district_rows": 5760,
+  "vegetable_rows": 270,
+  "usage_rows": 561,
+  "quarantine_rows": 0,
+  "missing_values": "Blank/dash cells remain missing; no daily deterioration inferred"
+}

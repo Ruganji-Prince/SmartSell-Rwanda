@@ -1,0 +1,15 @@
+crop,future_observed_horizons,origins
+Carrot,1,31
+Carrot,"1,2",14
+Carrot,"1,2,3",11
+Carrot,"1,3",8
+Carrot,2,16
+Carrot,"2,3",8
+Carrot,3,32
+Tomato,1,34
+Tomato,"1,2",12
+Tomato,"1,2,3",11
+Tomato,"1,3",10
+Tomato,2,18
+Tomato,"2,3",10
+Tomato,3,34

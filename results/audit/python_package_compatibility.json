@@ -1,0 +1,116 @@
+[
+  {
+    "package": "pandas",
+    "version": "3.1.0",
+    "requires_python": ">=3.11",
+    "declared_python_314_compatible": true,
+    "linux_x86_64_or_universal_candidate_wheels": [
+      "pandas-3.1.0-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+      "pandas-3.1.0-cp314-cp314t-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl"
+    ],
+    "source_url": "https://pypi.org/pypi/pandas/3.1.0/json"
+  },
+  {
+    "package": "numpy",
+    "version": "2.5.4",
+    "requires_python": ">=3.12",
+    "declared_python_314_compatible": true,
+    "linux_x86_64_or_universal_candidate_wheels": [
+      "numpy-2.5.4-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "numpy-2.5.4-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+    ],
+    "source_url": "https://pypi.org/pypi/numpy/2.5.4/json"
+  },
+  {
+    "package": "scikit-learn",
+    "version": "1.9.1",
+    "requires_python": ">=3.11",
+    "declared_python_314_compatible": true,
+    "linux_x86_64_or_universal_candidate_wheels": [
+      "scikit_learn-1.9.1-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "scikit_learn-1.9.1-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+    ],
+    "source_url": "https://pypi.org/pypi/scikit-learn/1.9.1/json"
+  },
+  {
+    "package": "xgboost",
+    "version": "3.4.1",
+    "requires_python": ">=3.12",
+    "declared_python_314_compatible": true,
+    "linux_x86_64_or_universal_candidate_wheels": [
+      "xgboost-3.4.1-py3-none-manylinux_2_28_x86_64.whl"
+    ],
+    "source_url": "https://pypi.org/pypi/xgboost/3.4.1/json"
+  },
+  {
+    "package": "matplotlib",
+    "version": "3.11.2",
+    "requires_python": ">=3.11",
+    "declared_python_314_compatible": true,
+    "linux_x86_64_or_universal_candidate_wheels": [
+      "matplotlib-3.11.2-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "matplotlib-3.11.2-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+    ],
+    "source_url": "https://pypi.org/pypi/matplotlib/3.11.2/json"
+  },
+  {
+    "package": "joblib",
+    "version": "1.6.0",
+    "requires_python": ">=3.10",
+    "declared_python_314_compatible": true,
+    "linux_x86_64_or_universal_candidate_wheels": [
+      "joblib-1.6.0-py3-none-any.whl"
+    ],
+    "source_url": "https://pypi.org/pypi/joblib/1.6.0/json"
+  },
+  {
+    "package": "openpyxl",
+    "version": "3.1.5",
+    "requires_python": ">=3.8",
+    "declared_python_314_compatible": true,
+    "linux_x86_64_or_universal_candidate_wheels": [
+      "openpyxl-3.1.5-py2.py3-none-any.whl"
+    ],
+    "source_url": "https://pypi.org/pypi/openpyxl/3.1.5/json"
+  },
+  {
+    "package": "streamlit",
+    "version": "1.66.1",
+    "requires_python": ">=3.11",
+    "declared_python_314_compatible": true,
+    "linux_x86_64_or_universal_candidate_wheels": [
+      "streamlit-1.66.1-py3-none-any.whl"
+    ],
+    "source_url": "https://pypi.org/pypi/streamlit/1.66.1/json"
+  },
+  {
+    "package": "pytest",
+    "version": "9.2.0",
+    "requires_python": ">=3.10",
+    "declared_python_314_compatible": true,
+    "linux_x86_64_or_universal_candidate_wheels": [
+      "pytest-9.2.0-py3-none-any.whl"
+    ],
+    "source_url": "https://pypi.org/pypi/pytest/9.2.0/json"
+  },
+  {
+    "package": "threadpoolctl",
+    "version": "3.7.0",
+    "requires_python": ">=3.9",
+    "declared_python_314_compatible": true,
+    "linux_x86_64_or_universal_candidate_wheels": [
+      "threadpoolctl-3.7.0-py3-none-any.whl"
+    ],
+    "source_url": "https://pypi.org/pypi/threadpoolctl/3.7.0/json"
+  },
+  {
+    "package": "tzdata",
+    "version": "2026.6",
+    "requires_python": ">=2",
+    "declared_python_314_compatible": true,
+    "linux_x86_64_or_universal_candidate_wheels": [
+      "tzdata-2026.6-py2.py3-none-any.whl"
+    ],
+    "source_url": "https://pypi.org/pypi/tzdata/2026.6/json"
+  }
+]

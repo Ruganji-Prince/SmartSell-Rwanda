@@ -1,0 +1,280 @@
+{
+  "raw_rows": 7076,
+  "invalid_rows": 0,
+  "conflicting_rows": 5,
+  "redundant_equal_price_rows": 805,
+  "clean_rows": 6266,
+  "first_observation": "2025-01-01",
+  "last_observation": "2026-10-14",
+  "missing_variety_fraction": 1.0,
+  "missing_grade_fraction": 1.0,
+  "cleaning_by_crop": [
+    {
+      "crop": "Carrot",
+      "raw_rows": 3552,
+      "clean_rows": 3160,
+      "total_rows_removed": 392,
+      "conflicting_rows_quarantined": 3,
+      "invalid_rows": 0,
+      "equal_price_duplicates_removed": 389,
+      "invalid_dates": 0,
+      "missing_or_nonnumeric_price": 0,
+      "nonpositive_or_nonfinite_price": 0,
+      "first_date": "2025-01-01",
+      "last_date": "2026-10-14",
+      "crop_market_series": 57,
+      "distinct_dates": 389
+    },
+    {
+      "crop": "Tomato",
+      "raw_rows": 3524,
+      "clean_rows": 3106,
+      "total_rows_removed": 418,
+      "conflicting_rows_quarantined": 2,
+      "invalid_rows": 0,
+      "equal_price_duplicates_removed": 416,
+      "invalid_dates": 0,
+      "missing_or_nonnumeric_price": 0,
+      "nonpositive_or_nonfinite_price": 0,
+      "first_date": "2025-01-01",
+      "last_date": "2026-10-14",
+      "crop_market_series": 56,
+      "distinct_dates": 389
+    }
+  ],
+  "split": {
+    "validation_start": "2026-01-31",
+    "test_start": "2026-05-09",
+    "raw_train_rows": 5220,
+    "raw_validation_rows": 718,
+    "raw_test_rows": 355
+  },
+  "train_rows": 4734,
+  "validation_rows": 657,
+  "test_rows": 314,
+  "prefix_invariance_series_checked": 113,
+  "nisr_displayed_cells_verified": 300,
+  "coverage_waterfall": [
+    {
+      "stage": "All clean observed test-period origins",
+      "remaining": 709,
+      "removed_at_stage": 0
+    },
+    {
+      "stage": "At least one observed exact future price (published coverage denominator)",
+      "remaining": 249,
+      "removed_at_stage": 460
+    },
+    {
+      "stage": "At least one future target survives horizon-specific training eligibility",
+      "remaining": 209,
+      "removed_at_stage": 40
+    },
+    {
+      "stage": "All three future calendar-day prices actually observed",
+      "remaining": 22,
+      "removed_at_stage": 187
+    },
+    {
+      "stage": "Training eligible for all three horizons",
+      "remaining": 22,
+      "removed_at_stage": 0
+    },
+    {
+      "stage": "At least two observations in trailing seven days",
+      "remaining": 20,
+      "removed_at_stage": 2
+    }
+  ],
+  "simulation_coverage": 0.08032128514056225,
+  "test_origins_removed_by_cleaning": 1,
+  "raw_to_clean_future_horizon_cells_lost": 0,
+  "mean_gap_days": 9.168860718348773,
+  "median_gap_days": 3.0,
+  "one_day_gap_fraction": 0.3349585568015602,
+  "maximum_gap_days": 479,
+  "gaps_over_seven_days": 1015,
+  "raw_rows_scraped_after_observation_day": 7036,
+  "publication_availability": "WARNING: scrape date does not establish source publication time; all metrics are conditional on same-day availability",
+  "headline_hashes_unchanged": {
+    "results\\model_comparison.csv": "d552f49c8bb6f413d966e253fae5edcde0023fc45a0e15755a15d9e3769c6f08",
+    "results\\decision_metrics.csv": "a2fff815fd2c7ac5c21d40786801ee24d2471579139798c7e5ea1a84d4b4c896",
+    "models\\selection.json": "a1c1e9558a123f577b8328e809d34bf97526357da8fc129034d57afaf2c78209"
+  },
+  "changed_normalizations": [
+    {
+      "field": "product",
+      "original": "Tomatos",
+      "normalized": "Tomato",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "BURERA",
+      "normalized": "Burera",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "KARONGI",
+      "normalized": "Karongi",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "GASABO",
+      "normalized": "Gasabo",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "MUSANZE",
+      "normalized": "Musanze",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "NYABIHU",
+      "normalized": "Nyabihu",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "NGOMA",
+      "normalized": "Ngoma",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "HUYE",
+      "normalized": "Huye",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "RUSIZI",
+      "normalized": "Rusizi",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "RWAMAGANA",
+      "normalized": "Rwamagana",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "RUBAVU",
+      "normalized": "Rubavu",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "KIREHE",
+      "normalized": "Kirehe",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "BUGESERA",
+      "normalized": "Bugesera",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "NYAMAGABE",
+      "normalized": "Nyamagabe",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "NYARUGENGE",
+      "normalized": "Nyarugenge",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "NYAGATARE",
+      "normalized": "Nyagatare",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "GAKENKE",
+      "normalized": "Gakenke",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "RUTSIRO",
+      "normalized": "Rutsiro",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "NYAMASHEKE",
+      "normalized": "Nyamasheke",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "KICUKIRO",
+      "normalized": "Kicukiro",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "RUHANGO",
+      "normalized": "Ruhango",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "RULINDO",
+      "normalized": "Rulindo",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "NYANZA",
+      "normalized": "Nyanza",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "KAMONYI",
+      "normalized": "Kamonyi",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "NYARUGURU",
+      "normalized": "Nyaruguru",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "MUHANGA",
+      "normalized": "Muhanga",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "GICUMBI",
+      "normalized": "Gicumbi",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "KAYONZA",
+      "normalized": "Kayonza",
+      "changed": true
+    },
+    {
+      "field": "region",
+      "original": "NGORORERO",
+      "normalized": "Ngororero",
+      "changed": true
+    }
+  ]
+}

@@ -1,0 +1,499 @@
+{
+  "selected_model": "persistence",
+  "selection_metric": "minimum crop-horizon macro validation MAE",
+  "split": {
+    "validation_start": "2026-01-31",
+    "test_start": "2026-05-09",
+    "raw_train_rows": 5220,
+    "raw_validation_rows": 718,
+    "raw_test_rows": 355
+  },
+  "train_rows": 4734,
+  "validation_rows": 657,
+  "test_rows": 314,
+  "eligible_keys": [
+    [
+      "Carrot",
+      "Gasabo | Kimironko",
+      1
+    ],
+    [
+      "Carrot",
+      "Gasabo | Kimironko",
+      2
+    ],
+    [
+      "Carrot",
+      "Gasabo | Kimironko",
+      3
+    ],
+    [
+      "Carrot",
+      "Gasabo | Mulindi",
+      1
+    ],
+    [
+      "Carrot",
+      "Gasabo | Mulindi",
+      2
+    ],
+    [
+      "Carrot",
+      "Gasabo | Mulindi",
+      3
+    ],
+    [
+      "Carrot",
+      "Huye | Butare",
+      1
+    ],
+    [
+      "Carrot",
+      "Huye | Butare",
+      2
+    ],
+    [
+      "Carrot",
+      "Huye | Butare",
+      3
+    ],
+    [
+      "Carrot",
+      "Karongi | Birambo",
+      3
+    ],
+    [
+      "Carrot",
+      "Karongi | Kibuye",
+      1
+    ],
+    [
+      "Carrot",
+      "Karongi | Kibuye",
+      2
+    ],
+    [
+      "Carrot",
+      "Karongi | Kibuye",
+      3
+    ],
+    [
+      "Carrot",
+      "Kicukiro | Gahanga",
+      3
+    ],
+    [
+      "Carrot",
+      "Kicukiro | Gahoromani",
+      1
+    ],
+    [
+      "Carrot",
+      "Kicukiro | Gahoromani",
+      2
+    ],
+    [
+      "Carrot",
+      "Kicukiro | Gahoromani",
+      3
+    ],
+    [
+      "Carrot",
+      "Kicukiro | Kicukiro-Center",
+      1
+    ],
+    [
+      "Carrot",
+      "Kicukiro | Kicukiro-Center",
+      2
+    ],
+    [
+      "Carrot",
+      "Kicukiro | Kicukiro-Center",
+      3
+    ],
+    [
+      "Carrot",
+      "Musanze | Musanze",
+      1
+    ],
+    [
+      "Carrot",
+      "Musanze | Musanze",
+      2
+    ],
+    [
+      "Carrot",
+      "Musanze | Musanze",
+      3
+    ],
+    [
+      "Carrot",
+      "Ngoma | Kibungo",
+      1
+    ],
+    [
+      "Carrot",
+      "Ngoma | Kibungo",
+      2
+    ],
+    [
+      "Carrot",
+      "Ngoma | Kibungo",
+      3
+    ],
+    [
+      "Carrot",
+      "Nyabihu | Mukamira",
+      3
+    ],
+    [
+      "Carrot",
+      "Nyagatare | Matimba",
+      1
+    ],
+    [
+      "Carrot",
+      "Nyagatare | Matimba",
+      2
+    ],
+    [
+      "Carrot",
+      "Nyagatare | Matimba",
+      3
+    ],
+    [
+      "Carrot",
+      "Nyagatare | Nyagatare",
+      1
+    ],
+    [
+      "Carrot",
+      "Nyagatare | Nyagatare",
+      2
+    ],
+    [
+      "Carrot",
+      "Nyagatare | Nyagatare",
+      3
+    ],
+    [
+      "Carrot",
+      "Nyagatare | Rukomo",
+      1
+    ],
+    [
+      "Carrot",
+      "Nyagatare | Rukomo",
+      2
+    ],
+    [
+      "Carrot",
+      "Nyagatare | Rukomo",
+      3
+    ],
+    [
+      "Carrot",
+      "Nyarugenge | Kimisagara",
+      2
+    ],
+    [
+      "Carrot",
+      "Nyarugenge | Nyabugogo",
+      1
+    ],
+    [
+      "Carrot",
+      "Nyarugenge | Nyabugogo",
+      2
+    ],
+    [
+      "Carrot",
+      "Nyarugenge | Nyabugogo",
+      3
+    ],
+    [
+      "Carrot",
+      "Rwamagana | Karenge",
+      3
+    ],
+    [
+      "Tomato",
+      "Gasabo | Kimironko",
+      1
+    ],
+    [
+      "Tomato",
+      "Gasabo | Kimironko",
+      2
+    ],
+    [
+      "Tomato",
+      "Gasabo | Kimironko",
+      3
+    ],
+    [
+      "Tomato",
+      "Gasabo | Mulindi",
+      1
+    ],
+    [
+      "Tomato",
+      "Gasabo | Mulindi",
+      2
+    ],
+    [
+      "Tomato",
+      "Gasabo | Mulindi",
+      3
+    ],
+    [
+      "Tomato",
+      "Huye | Butare",
+      1
+    ],
+    [
+      "Tomato",
+      "Huye | Butare",
+      2
+    ],
+    [
+      "Tomato",
+      "Huye | Butare",
+      3
+    ],
+    [
+      "Tomato",
+      "Karongi | Kibuye",
+      1
+    ],
+    [
+      "Tomato",
+      "Karongi | Kibuye",
+      2
+    ],
+    [
+      "Tomato",
+      "Karongi | Kibuye",
+      3
+    ],
+    [
+      "Tomato",
+      "Kicukiro | Gahanga",
+      3
+    ],
+    [
+      "Tomato",
+      "Kicukiro | Gahoromani",
+      1
+    ],
+    [
+      "Tomato",
+      "Kicukiro | Gahoromani",
+      2
+    ],
+    [
+      "Tomato",
+      "Kicukiro | Gahoromani",
+      3
+    ],
+    [
+      "Tomato",
+      "Kicukiro | Kicukiro-Center",
+      1
+    ],
+    [
+      "Tomato",
+      "Kicukiro | Kicukiro-Center",
+      2
+    ],
+    [
+      "Tomato",
+      "Kicukiro | Kicukiro-Center",
+      3
+    ],
+    [
+      "Tomato",
+      "Musanze | Musanze",
+      1
+    ],
+    [
+      "Tomato",
+      "Musanze | Musanze",
+      2
+    ],
+    [
+      "Tomato",
+      "Musanze | Musanze",
+      3
+    ],
+    [
+      "Tomato",
+      "Ngoma | Kibungo",
+      1
+    ],
+    [
+      "Tomato",
+      "Ngoma | Kibungo",
+      2
+    ],
+    [
+      "Tomato",
+      "Ngoma | Kibungo",
+      3
+    ],
+    [
+      "Tomato",
+      "Nyabihu | Mukamira",
+      3
+    ],
+    [
+      "Tomato",
+      "Nyagatare | Matimba",
+      1
+    ],
+    [
+      "Tomato",
+      "Nyagatare | Matimba",
+      2
+    ],
+    [
+      "Tomato",
+      "Nyagatare | Matimba",
+      3
+    ],
+    [
+      "Tomato",
+      "Nyagatare | Nyagatare",
+      1
+    ],
+    [
+      "Tomato",
+      "Nyagatare | Nyagatare",
+      2
+    ],
+    [
+      "Tomato",
+      "Nyagatare | Nyagatare",
+      3
+    ],
+    [
+      "Tomato",
+      "Nyagatare | Rukomo",
+      1
+    ],
+    [
+      "Tomato",
+      "Nyagatare | Rukomo",
+      2
+    ],
+    [
+      "Tomato",
+      "Nyagatare | Rukomo",
+      3
+    ],
+    [
+      "Tomato",
+      "Nyarugenge | Kimisagara",
+      2
+    ],
+    [
+      "Tomato",
+      "Nyarugenge | Nyabugogo",
+      1
+    ],
+    [
+      "Tomato",
+      "Nyarugenge | Nyabugogo",
+      2
+    ],
+    [
+      "Tomato",
+      "Nyarugenge | Nyabugogo",
+      3
+    ],
+    [
+      "Tomato",
+      "Rwamagana | Karenge",
+      3
+    ]
+  ],
+  "features": [
+    "price",
+    "lag_1_price",
+    "lag_2_price",
+    "lag_3_price",
+    "lag_1_age_days",
+    "lag_2_age_days",
+    "lag_3_age_days",
+    "lag_1_stale",
+    "lag_2_stale",
+    "lag_3_stale",
+    "trailing_7d_mean",
+    "trailing_7d_median",
+    "trailing_7d_std",
+    "trailing_7d_count",
+    "previous_relative_change",
+    "day_of_week",
+    "month_sin",
+    "month_cos",
+    "horizon",
+    "product",
+    "market_id"
+  ],
+  "residual_bands": [
+    {
+      "crop": "Carrot",
+      "horizon": 1,
+      "n": 117,
+      "half_width_rwf_kg": 100.0
+    },
+    {
+      "crop": "Carrot",
+      "horizon": 2,
+      "n": 107,
+      "half_width_rwf_kg": 200.0
+    },
+    {
+      "crop": "Carrot",
+      "horizon": 3,
+      "n": 110,
+      "half_width_rwf_kg": 150.0
+    },
+    {
+      "crop": "Tomato",
+      "horizon": 1,
+      "n": 118,
+      "half_width_rwf_kg": 100.0
+    },
+    {
+      "crop": "Tomato",
+      "horizon": 2,
+      "n": 100,
+      "half_width_rwf_kg": 200.0
+    },
+    {
+      "crop": "Tomato",
+      "horizon": 3,
+      "n": 105,
+      "half_width_rwf_kg": 200.0
+    }
+  ],
+  "uncertainty": "Symmetric empirical 90th-percentile validation absolute errors; not guaranteed coverage or probability of profit",
+  "fitted_on": "training partition only; no post-test refit",
+  "seed": 42,
+  "training_last_origin": "2026-01-29",
+  "latest_observation": "2026-10-14",
+  "caveat": "Existing academic work inspected parts of history; this is a chronological retrospective benchmark, not a newly untouched prospective test",
+  "availability_caveat": "Evaluation assumes same-day availability of observed prices; scrape timestamps do not prove publication timing",
+  "unavailable_candidates": {},
+  "prices_sha256": "d97f8d564e8cde4c0206e248bb52dd3cf090043e1fbf074e4b656ac83875c25a",
+  "packages": {
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.4.1",
+    "joblib": "1.6.0",
+    "streamlit": "1.66.1"
+  }
+}

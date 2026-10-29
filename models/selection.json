@@ -1,0 +1,10 @@
+{
+  "selected_model": "persistence",
+  "selection_metric": "crop-horizon macro validation MAE",
+  "scores": {
+    "persistence": 48.99875299246518,
+    "rolling_median": 59.058313251098774,
+    "hist_gradient_boosting": 54.878544656717246,
+    "xgboost": 55.0670185130541
+  }
+}

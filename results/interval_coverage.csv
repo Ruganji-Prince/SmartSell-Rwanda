@@ -1,0 +1,7 @@
+crop,horizon,n,half_width_rwf_kg,test_n,empirical_test_coverage
+Carrot,1,117,100.0,64,0.921875
+Carrot,2,107,200.0,46,0.9347826086956522
+Carrot,3,110,150.0,45,0.8888888888888888
+Tomato,1,118,100.0,66,0.8939393939393939
+Tomato,2,100,200.0,48,1.0
+Tomato,3,105,200.0,45,1.0

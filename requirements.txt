@@ -1,0 +1,12 @@
+# Tested with Python 3.14.2. Exact direct versions; full environment in requirements-lock.txt.
+pandas==3.1.0
+numpy==2.5.4
+scikit-learn==1.9.1
+xgboost==3.4.1
+matplotlib==3.11.2
+joblib==1.6.0
+openpyxl==3.1.5
+streamlit==1.66.1
+pytest==9.2.0
+threadpoolctl==3.7.0
+tzdata==2026.6

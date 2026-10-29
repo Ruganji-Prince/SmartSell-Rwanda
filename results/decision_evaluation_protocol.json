@@ -1,0 +1,24 @@
+{
+  "quantity_kg": 100,
+  "other_cost_per_day": 0,
+  "scenarios": [
+    [
+      "No loss or cost",
+      0.0,
+      0.0
+    ],
+    [
+      "Illustrative 1% daily loss",
+      1.0,
+      100.0
+    ],
+    [
+      "Illustrative 3% daily loss",
+      3.0,
+      100.0
+    ]
+  ],
+  "coverage_denominator": "All distinct test origins with at least one exact future target, before eligibility filtering",
+  "inclusion": "Training-eligible all horizons; >=2 recent observations; all 1/2/3 future dates actually observed",
+  "warning": "Simulated retrospective decision outcomes; no actual farmer income measured; complete-window selection may be unrepresentative"
+}

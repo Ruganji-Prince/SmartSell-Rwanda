@@ -1,0 +1,4 @@
+analysis,hypothetical_future_price_rwf_kg,retained_kg,waiting_cost_rwf,net_wait_rwf,sell_now_rwf,advantage_vs_sell_now_rwf,action
+"Illustrative what-if, not a measured forecast",500.0,99,100,49400.0,50000,-600.0,SELL NOW
+"Illustrative what-if, not a measured forecast",505.0,99,100,49895.0,50000,-105.0,SELL NOW
+"Illustrative what-if, not a measured forecast",507.0,99,100,50093.0,50000,93.0,WAIT 1 DAY

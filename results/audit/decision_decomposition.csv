@@ -1,0 +1,4 @@
+scenario,n,recommended_wait_n,actual_oracle_wait_n,mean_oracle_regret_rwf,recommendation_driver
+No loss or cost,20,0,1,500.0,"Flat persistence; positive losses/costs penalize waiting, zero-loss/cost ties favor immediate sale"
+Illustrative 1% daily loss,20,0,1,403.32225,"Flat persistence; positive losses/costs penalize waiting, zero-loss/cost ties favor immediate sale"
+Illustrative 3% daily loss,20,0,1,244.8507499999996,"Flat persistence; positive losses/costs penalize waiting, zero-loss/cost ties favor immediate sale"

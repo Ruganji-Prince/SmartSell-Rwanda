@@ -1,0 +1,4 @@
+horizon,break_even_price,required_price_increase_rwf_kg,required_price_increase_percent,forecast_vs_break_even
+1,506.06060606060606,6.060606060606062,1.21212121212122,Forecast below break-even
+2,512.1926334047547,12.192633404754702,2.4385266809509476,Forecast below break-even
+3,518.3969065205674,18.396906520567427,3.6793813041134937,Forecast below break-even

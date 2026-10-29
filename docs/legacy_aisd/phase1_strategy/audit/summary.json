@@ -1,0 +1,40 @@
+[
+  {
+    "file": "tangabid_market_prices.csv",
+    "raw_rows": 3524,
+    "raw_columns": 12,
+    "markets": 56,
+    "date_min": "2025-01-01",
+    "date_max": "2026-10-14",
+    "missing_pct": 16.666666666666664,
+    "complete_rows": 0,
+    "conflicting_rows": 2,
+    "redundant_rows": 416,
+    "clean_rows": 3106,
+    "raw_price_skew": 0.6507762807720151,
+    "calendar_pairs": {
+      "1": 1022,
+      "2": 951,
+      "3": 1165
+    }
+  },
+  {
+    "file": "tangabid_market_prices_carrots.csv",
+    "raw_rows": 3552,
+    "raw_columns": 12,
+    "markets": 57,
+    "date_min": "2025-01-01",
+    "date_max": "2026-10-14",
+    "missing_pct": 16.666666666666664,
+    "complete_rows": 0,
+    "conflicting_rows": 3,
+    "redundant_rows": 389,
+    "clean_rows": 3160,
+    "raw_price_skew": 9.576764032277307,
+    "calendar_pairs": {
+      "1": 1039,
+      "2": 961,
+      "3": 1191
+    }
+  }
+]

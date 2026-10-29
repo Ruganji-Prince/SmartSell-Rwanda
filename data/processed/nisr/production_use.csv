@@ -1,0 +1,562 @@
+year,season,geography,crop_group,use,percent,denominator,table,source_cell
+2024,A,Rwanda (national),Maize,Sold,43.418620000000004,Published share of crop-group production; not stored quantity or daily exposure,24,C4
+2024,A,Rwanda (national),Maize,Own consumption,43.82573,Published share of crop-group production; not stored quantity or daily exposure,24,D4
+2024,A,Rwanda (national),Maize,Wages for hired labour,1.5313,Published share of crop-group production; not stored quantity or daily exposure,24,E4
+2024,A,Rwanda (national),Maize,Farm rent,2.67042,Published share of crop-group production; not stored quantity or daily exposure,24,F4
+2024,A,Rwanda (national),Maize,Offered as gift,5.22814,Published share of crop-group production; not stored quantity or daily exposure,24,G4
+2024,A,Rwanda (national),Maize,Barter trade/Exchanged with other things,0.04994,Published share of crop-group production; not stored quantity or daily exposure,24,H4
+2024,A,Rwanda (national),Maize,Seeds,0.5585,Published share of crop-group production; not stored quantity or daily exposure,24,I4
+2024,A,Rwanda (national),Maize,Fodder purpose,0.44517,Published share of crop-group production; not stored quantity or daily exposure,24,J4
+2024,A,Rwanda (national),Maize,Stored,1.5027300000000001,Published share of crop-group production; not stored quantity or daily exposure,24,K4
+2024,A,Rwanda (national),Maize,Post harvesting losses,0.42782000000000003,Published share of crop-group production; not stored quantity or daily exposure,24,L4
+2024,A,Rwanda (national),Maize,Other usage,0.34163,Published share of crop-group production; not stored quantity or daily exposure,24,M4
+2024,A,Rwanda (national),Sorghum,Sold,64.8453,Published share of crop-group production; not stored quantity or daily exposure,24,C5
+2024,A,Rwanda (national),Sorghum,Own consumption,21.20663,Published share of crop-group production; not stored quantity or daily exposure,24,D5
+2024,A,Rwanda (national),Sorghum,Wages for hired labour,2.0736600000000003,Published share of crop-group production; not stored quantity or daily exposure,24,E5
+2024,A,Rwanda (national),Sorghum,Farm rent,3.1599000000000004,Published share of crop-group production; not stored quantity or daily exposure,24,F5
+2024,A,Rwanda (national),Sorghum,Offered as gift,4.0873,Published share of crop-group production; not stored quantity or daily exposure,24,G5
+2024,A,Rwanda (national),Sorghum,Barter trade/Exchanged with other things,0.02053,Published share of crop-group production; not stored quantity or daily exposure,24,H5
+2024,A,Rwanda (national),Sorghum,Seeds,2.18792,Published share of crop-group production; not stored quantity or daily exposure,24,I5
+2024,A,Rwanda (national),Sorghum,Fodder purpose,0.00281,Published share of crop-group production; not stored quantity or daily exposure,24,J5
+2024,A,Rwanda (national),Sorghum,Stored,0.9606800000000001,Published share of crop-group production; not stored quantity or daily exposure,24,K5
+2024,A,Rwanda (national),Sorghum,Post harvesting losses,0.8876999999999999,Published share of crop-group production; not stored quantity or daily exposure,24,L5
+2024,A,Rwanda (national),Sorghum,Other usage,0.5675600000000001,Published share of crop-group production; not stored quantity or daily exposure,24,M5
+2024,A,Rwanda (national),Paddy rice,Sold,81.66101,Published share of crop-group production; not stored quantity or daily exposure,24,C6
+2024,A,Rwanda (national),Paddy rice,Own consumption,17.228550000000002,Published share of crop-group production; not stored quantity or daily exposure,24,D6
+2024,A,Rwanda (national),Paddy rice,Wages for hired labour,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,E6
+2024,A,Rwanda (national),Paddy rice,Farm rent,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,F6
+2024,A,Rwanda (national),Paddy rice,Offered as gift,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,G6
+2024,A,Rwanda (national),Paddy rice,Barter trade/Exchanged with other things,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,H6
+2024,A,Rwanda (national),Paddy rice,Seeds,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,I6
+2024,A,Rwanda (national),Paddy rice,Fodder purpose,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,J6
+2024,A,Rwanda (national),Paddy rice,Stored,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,K6
+2024,A,Rwanda (national),Paddy rice,Post harvesting losses,1.11044,Published share of crop-group production; not stored quantity or daily exposure,24,L6
+2024,A,Rwanda (national),Paddy rice,Other usage,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,M6
+2024,A,Rwanda (national),Wheat,Sold,49.28029,Published share of crop-group production; not stored quantity or daily exposure,24,C7
+2024,A,Rwanda (national),Wheat,Own consumption,32.55769,Published share of crop-group production; not stored quantity or daily exposure,24,D7
+2024,A,Rwanda (national),Wheat,Wages for hired labour,0.02785,Published share of crop-group production; not stored quantity or daily exposure,24,E7
+2024,A,Rwanda (national),Wheat,Farm rent,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,F7
+2024,A,Rwanda (national),Wheat,Offered as gift,4.5378300000000005,Published share of crop-group production; not stored quantity or daily exposure,24,G7
+2024,A,Rwanda (national),Wheat,Barter trade/Exchanged with other things,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,H7
+2024,A,Rwanda (national),Wheat,Seeds,12.093020000000001,Published share of crop-group production; not stored quantity or daily exposure,24,I7
+2024,A,Rwanda (national),Wheat,Fodder purpose,0.30121000000000003,Published share of crop-group production; not stored quantity or daily exposure,24,J7
+2024,A,Rwanda (national),Wheat,Stored,0.03481,Published share of crop-group production; not stored quantity or daily exposure,24,K7
+2024,A,Rwanda (national),Wheat,Post harvesting losses,0.01538,Published share of crop-group production; not stored quantity or daily exposure,24,L7
+2024,A,Rwanda (national),Wheat,Other usage,1.15192,Published share of crop-group production; not stored quantity or daily exposure,24,M7
+2024,A,Rwanda (national),Other cereals,Sold,34.73888,Published share of crop-group production; not stored quantity or daily exposure,24,C8
+2024,A,Rwanda (national),Other cereals,Own consumption,41.33238,Published share of crop-group production; not stored quantity or daily exposure,24,D8
+2024,A,Rwanda (national),Other cereals,Wages for hired labour,1.65707,Published share of crop-group production; not stored quantity or daily exposure,24,E8
+2024,A,Rwanda (national),Other cereals,Farm rent,3.16175,Published share of crop-group production; not stored quantity or daily exposure,24,F8
+2024,A,Rwanda (national),Other cereals,Offered as gift,8.53008,Published share of crop-group production; not stored quantity or daily exposure,24,G8
+2024,A,Rwanda (national),Other cereals,Barter trade/Exchanged with other things,0.03601,Published share of crop-group production; not stored quantity or daily exposure,24,H8
+2024,A,Rwanda (national),Other cereals,Seeds,6.677320000000001,Published share of crop-group production; not stored quantity or daily exposure,24,I8
+2024,A,Rwanda (national),Other cereals,Fodder purpose,0.01805,Published share of crop-group production; not stored quantity or daily exposure,24,J8
+2024,A,Rwanda (national),Other cereals,Stored,2.0848999999999998,Published share of crop-group production; not stored quantity or daily exposure,24,K8
+2024,A,Rwanda (national),Other cereals,Post harvesting losses,1.7162,Published share of crop-group production; not stored quantity or daily exposure,24,L8
+2024,A,Rwanda (national),Other cereals,Other usage,0.04737,Published share of crop-group production; not stored quantity or daily exposure,24,M8
+2024,A,Rwanda (national),Sweet potato,Sold,36.57791,Published share of crop-group production; not stored quantity or daily exposure,24,C9
+2024,A,Rwanda (national),Sweet potato,Own consumption,54.0817,Published share of crop-group production; not stored quantity or daily exposure,24,D9
+2024,A,Rwanda (national),Sweet potato,Wages for hired labour,1.59607,Published share of crop-group production; not stored quantity or daily exposure,24,E9
+2024,A,Rwanda (national),Sweet potato,Farm rent,0.7215,Published share of crop-group production; not stored quantity or daily exposure,24,F9
+2024,A,Rwanda (national),Sweet potato,Offered as gift,5.2786,Published share of crop-group production; not stored quantity or daily exposure,24,G9
+2024,A,Rwanda (national),Sweet potato,Barter trade/Exchanged with other things,0.01105,Published share of crop-group production; not stored quantity or daily exposure,24,H9
+2024,A,Rwanda (national),Sweet potato,Seeds,0.006109999999999999,Published share of crop-group production; not stored quantity or daily exposure,24,I9
+2024,A,Rwanda (national),Sweet potato,Fodder purpose,1.46824,Published share of crop-group production; not stored quantity or daily exposure,24,J9
+2024,A,Rwanda (national),Sweet potato,Stored,0.07973999999999999,Published share of crop-group production; not stored quantity or daily exposure,24,K9
+2024,A,Rwanda (national),Sweet potato,Post harvesting losses,0.02489,Published share of crop-group production; not stored quantity or daily exposure,24,L9
+2024,A,Rwanda (national),Sweet potato,Other usage,0.1542,Published share of crop-group production; not stored quantity or daily exposure,24,M9
+2024,A,Rwanda (national),Irish potato,Sold,58.28934,Published share of crop-group production; not stored quantity or daily exposure,24,C10
+2024,A,Rwanda (national),Irish potato,Own consumption,25.698549999999997,Published share of crop-group production; not stored quantity or daily exposure,24,D10
+2024,A,Rwanda (national),Irish potato,Wages for hired labour,0.70545,Published share of crop-group production; not stored quantity or daily exposure,24,E10
+2024,A,Rwanda (national),Irish potato,Farm rent,0.37911,Published share of crop-group production; not stored quantity or daily exposure,24,F10
+2024,A,Rwanda (national),Irish potato,Offered as gift,3.59528,Published share of crop-group production; not stored quantity or daily exposure,24,G10
+2024,A,Rwanda (national),Irish potato,Barter trade/Exchanged with other things,0.07564,Published share of crop-group production; not stored quantity or daily exposure,24,H10
+2024,A,Rwanda (national),Irish potato,Seeds,10.48659,Published share of crop-group production; not stored quantity or daily exposure,24,I10
+2024,A,Rwanda (national),Irish potato,Fodder purpose,0.06935,Published share of crop-group production; not stored quantity or daily exposure,24,J10
+2024,A,Rwanda (national),Irish potato,Stored,0.04489,Published share of crop-group production; not stored quantity or daily exposure,24,K10
+2024,A,Rwanda (national),Irish potato,Post harvesting losses,0.52045,Published share of crop-group production; not stored quantity or daily exposure,24,L10
+2024,A,Rwanda (national),Irish potato,Other usage,0.13534000000000002,Published share of crop-group production; not stored quantity or daily exposure,24,M10
+2024,A,Rwanda (national),Yam & Taro,Sold,20.08385,Published share of crop-group production; not stored quantity or daily exposure,24,C11
+2024,A,Rwanda (national),Yam & Taro,Own consumption,68.84924,Published share of crop-group production; not stored quantity or daily exposure,24,D11
+2024,A,Rwanda (national),Yam & Taro,Wages for hired labour,1.8768699999999998,Published share of crop-group production; not stored quantity or daily exposure,24,E11
+2024,A,Rwanda (national),Yam & Taro,Farm rent,0.05968,Published share of crop-group production; not stored quantity or daily exposure,24,F11
+2024,A,Rwanda (national),Yam & Taro,Offered as gift,5.9811499999999995,Published share of crop-group production; not stored quantity or daily exposure,24,G11
+2024,A,Rwanda (national),Yam & Taro,Barter trade/Exchanged with other things,0.36878,Published share of crop-group production; not stored quantity or daily exposure,24,H11
+2024,A,Rwanda (national),Yam & Taro,Seeds,2.54635,Published share of crop-group production; not stored quantity or daily exposure,24,I11
+2024,A,Rwanda (national),Yam & Taro,Fodder purpose,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,J11
+2024,A,Rwanda (national),Yam & Taro,Stored,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,K11
+2024,A,Rwanda (national),Yam & Taro,Post harvesting losses,0.00775,Published share of crop-group production; not stored quantity or daily exposure,24,L11
+2024,A,Rwanda (national),Yam & Taro,Other usage,0.22631,Published share of crop-group production; not stored quantity or daily exposure,24,M11
+2024,A,Rwanda (national),Cassava,Sold,71.16743,Published share of crop-group production; not stored quantity or daily exposure,24,C12
+2024,A,Rwanda (national),Cassava,Own consumption,24.08389,Published share of crop-group production; not stored quantity or daily exposure,24,D12
+2024,A,Rwanda (national),Cassava,Wages for hired labour,0.86209,Published share of crop-group production; not stored quantity or daily exposure,24,E12
+2024,A,Rwanda (national),Cassava,Farm rent,0.9766699999999999,Published share of crop-group production; not stored quantity or daily exposure,24,F12
+2024,A,Rwanda (national),Cassava,Offered as gift,2.38667,Published share of crop-group production; not stored quantity or daily exposure,24,G12
+2024,A,Rwanda (national),Cassava,Barter trade/Exchanged with other things,0.009600000000000001,Published share of crop-group production; not stored quantity or daily exposure,24,H12
+2024,A,Rwanda (national),Cassava,Seeds,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,I12
+2024,A,Rwanda (national),Cassava,Fodder purpose,0.07643,Published share of crop-group production; not stored quantity or daily exposure,24,J12
+2024,A,Rwanda (national),Cassava,Stored,0.10078000000000001,Published share of crop-group production; not stored quantity or daily exposure,24,K12
+2024,A,Rwanda (national),Cassava,Post harvesting losses,0.17788,Published share of crop-group production; not stored quantity or daily exposure,24,L12
+2024,A,Rwanda (national),Cassava,Other usage,0.15856,Published share of crop-group production; not stored quantity or daily exposure,24,M12
+2024,A,Rwanda (national),Bush bean,Sold,24.24736,Published share of crop-group production; not stored quantity or daily exposure,24,C13
+2024,A,Rwanda (national),Bush bean,Own consumption,50.879090000000005,Published share of crop-group production; not stored quantity or daily exposure,24,D13
+2024,A,Rwanda (national),Bush bean,Wages for hired labour,1.68118,Published share of crop-group production; not stored quantity or daily exposure,24,E13
+2024,A,Rwanda (national),Bush bean,Farm rent,2.16769,Published share of crop-group production; not stored quantity or daily exposure,24,F13
+2024,A,Rwanda (national),Bush bean,Offered as gift,5.0295,Published share of crop-group production; not stored quantity or daily exposure,24,G13
+2024,A,Rwanda (national),Bush bean,Barter trade/Exchanged with other things,0.11876,Published share of crop-group production; not stored quantity or daily exposure,24,H13
+2024,A,Rwanda (national),Bush bean,Seeds,12.72664,Published share of crop-group production; not stored quantity or daily exposure,24,I13
+2024,A,Rwanda (national),Bush bean,Fodder purpose,0.02185,Published share of crop-group production; not stored quantity or daily exposure,24,J13
+2024,A,Rwanda (national),Bush bean,Stored,2.1011599999999997,Published share of crop-group production; not stored quantity or daily exposure,24,K13
+2024,A,Rwanda (national),Bush bean,Post harvesting losses,0.67031,Published share of crop-group production; not stored quantity or daily exposure,24,L13
+2024,A,Rwanda (national),Bush bean,Other usage,0.35648,Published share of crop-group production; not stored quantity or daily exposure,24,M13
+2024,A,Rwanda (national),Climbing bean,Sold,15.684690000000002,Published share of crop-group production; not stored quantity or daily exposure,24,C14
+2024,A,Rwanda (national),Climbing bean,Own consumption,61.083560000000006,Published share of crop-group production; not stored quantity or daily exposure,24,D14
+2024,A,Rwanda (national),Climbing bean,Wages for hired labour,1.07185,Published share of crop-group production; not stored quantity or daily exposure,24,E14
+2024,A,Rwanda (national),Climbing bean,Farm rent,0.74124,Published share of crop-group production; not stored quantity or daily exposure,24,F14
+2024,A,Rwanda (national),Climbing bean,Offered as gift,7.260949999999999,Published share of crop-group production; not stored quantity or daily exposure,24,G14
+2024,A,Rwanda (national),Climbing bean,Barter trade/Exchanged with other things,0.09941,Published share of crop-group production; not stored quantity or daily exposure,24,H14
+2024,A,Rwanda (national),Climbing bean,Seeds,11.76714,Published share of crop-group production; not stored quantity or daily exposure,24,I14
+2024,A,Rwanda (national),Climbing bean,Fodder purpose,0.01638,Published share of crop-group production; not stored quantity or daily exposure,24,J14
+2024,A,Rwanda (national),Climbing bean,Stored,1.5096,Published share of crop-group production; not stored quantity or daily exposure,24,K14
+2024,A,Rwanda (national),Climbing bean,Post harvesting losses,0.54005,Published share of crop-group production; not stored quantity or daily exposure,24,L14
+2024,A,Rwanda (national),Climbing bean,Other usage,0.22513,Published share of crop-group production; not stored quantity or daily exposure,24,M14
+2024,A,Rwanda (national),Pea,Sold,41.029959999999996,Published share of crop-group production; not stored quantity or daily exposure,24,C15
+2024,A,Rwanda (national),Pea,Own consumption,42.66563,Published share of crop-group production; not stored quantity or daily exposure,24,D15
+2024,A,Rwanda (national),Pea,Wages for hired labour,0.39937999999999996,Published share of crop-group production; not stored quantity or daily exposure,24,E15
+2024,A,Rwanda (national),Pea,Farm rent,0.04045,Published share of crop-group production; not stored quantity or daily exposure,24,F15
+2024,A,Rwanda (national),Pea,Offered as gift,3.31957,Published share of crop-group production; not stored quantity or daily exposure,24,G15
+2024,A,Rwanda (national),Pea,Barter trade/Exchanged with other things,0.05296,Published share of crop-group production; not stored quantity or daily exposure,24,H15
+2024,A,Rwanda (national),Pea,Seeds,11.532720000000001,Published share of crop-group production; not stored quantity or daily exposure,24,I15
+2024,A,Rwanda (national),Pea,Fodder purpose,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,J15
+2024,A,Rwanda (national),Pea,Stored,0.53931,Published share of crop-group production; not stored quantity or daily exposure,24,K15
+2024,A,Rwanda (national),Pea,Post harvesting losses,0.36015,Published share of crop-group production; not stored quantity or daily exposure,24,L15
+2024,A,Rwanda (national),Pea,Other usage,0.059860000000000003,Published share of crop-group production; not stored quantity or daily exposure,24,M15
+2024,A,Rwanda (national),Groundnut,Sold,29.84153,Published share of crop-group production; not stored quantity or daily exposure,24,C16
+2024,A,Rwanda (national),Groundnut,Own consumption,36.90185,Published share of crop-group production; not stored quantity or daily exposure,24,D16
+2024,A,Rwanda (national),Groundnut,Wages for hired labour,0.57326,Published share of crop-group production; not stored quantity or daily exposure,24,E16
+2024,A,Rwanda (national),Groundnut,Farm rent,0.89554,Published share of crop-group production; not stored quantity or daily exposure,24,F16
+2024,A,Rwanda (national),Groundnut,Offered as gift,4.89997,Published share of crop-group production; not stored quantity or daily exposure,24,G16
+2024,A,Rwanda (national),Groundnut,Barter trade/Exchanged with other things,0.07423,Published share of crop-group production; not stored quantity or daily exposure,24,H16
+2024,A,Rwanda (national),Groundnut,Seeds,25.168879999999998,Published share of crop-group production; not stored quantity or daily exposure,24,I16
+2024,A,Rwanda (national),Groundnut,Fodder purpose,0.11906,Published share of crop-group production; not stored quantity or daily exposure,24,J16
+2024,A,Rwanda (national),Groundnut,Stored,1.2437399999999998,Published share of crop-group production; not stored quantity or daily exposure,24,K16
+2024,A,Rwanda (national),Groundnut,Post harvesting losses,0.08206,Published share of crop-group production; not stored quantity or daily exposure,24,L16
+2024,A,Rwanda (national),Groundnut,Other usage,0.19987,Published share of crop-group production; not stored quantity or daily exposure,24,M16
+2024,A,Rwanda (national),Soybean,Sold,26.04938,Published share of crop-group production; not stored quantity or daily exposure,24,C17
+2024,A,Rwanda (national),Soybean,Own consumption,47.2005,Published share of crop-group production; not stored quantity or daily exposure,24,D17
+2024,A,Rwanda (national),Soybean,Wages for hired labour,0.72979,Published share of crop-group production; not stored quantity or daily exposure,24,E17
+2024,A,Rwanda (national),Soybean,Farm rent,1.43663,Published share of crop-group production; not stored quantity or daily exposure,24,F17
+2024,A,Rwanda (national),Soybean,Offered as gift,4.39039,Published share of crop-group production; not stored quantity or daily exposure,24,G17
+2024,A,Rwanda (national),Soybean,Barter trade/Exchanged with other things,0.23797,Published share of crop-group production; not stored quantity or daily exposure,24,H17
+2024,A,Rwanda (national),Soybean,Seeds,17.326990000000002,Published share of crop-group production; not stored quantity or daily exposure,24,I17
+2024,A,Rwanda (national),Soybean,Fodder purpose,0.04228,Published share of crop-group production; not stored quantity or daily exposure,24,J17
+2024,A,Rwanda (national),Soybean,Stored,1.4442,Published share of crop-group production; not stored quantity or daily exposure,24,K17
+2024,A,Rwanda (national),Soybean,Post harvesting losses,0.3202,Published share of crop-group production; not stored quantity or daily exposure,24,L17
+2024,A,Rwanda (national),Soybean,Other usage,0.82166,Published share of crop-group production; not stored quantity or daily exposure,24,M17
+2024,A,Rwanda (national),Cooking banana,Sold,65.62727000000001,Published share of crop-group production; not stored quantity or daily exposure,24,C18
+2024,A,Rwanda (national),Cooking banana,Own consumption,30.35686,Published share of crop-group production; not stored quantity or daily exposure,24,D18
+2024,A,Rwanda (national),Cooking banana,Wages for hired labour,0.69825,Published share of crop-group production; not stored quantity or daily exposure,24,E18
+2024,A,Rwanda (national),Cooking banana,Farm rent,0.11695,Published share of crop-group production; not stored quantity or daily exposure,24,F18
+2024,A,Rwanda (national),Cooking banana,Offered as gift,2.7435,Published share of crop-group production; not stored quantity or daily exposure,24,G18
+2024,A,Rwanda (national),Cooking banana,Barter trade/Exchanged with other things,0.00857,Published share of crop-group production; not stored quantity or daily exposure,24,H18
+2024,A,Rwanda (national),Cooking banana,Seeds,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,I18
+2024,A,Rwanda (national),Cooking banana,Fodder purpose,0.0068200000000000005,Published share of crop-group production; not stored quantity or daily exposure,24,J18
+2024,A,Rwanda (national),Cooking banana,Stored,0.00124,Published share of crop-group production; not stored quantity or daily exposure,24,K18
+2024,A,Rwanda (national),Cooking banana,Post harvesting losses,0.0431,Published share of crop-group production; not stored quantity or daily exposure,24,L18
+2024,A,Rwanda (national),Cooking banana,Other usage,0.39743,Published share of crop-group production; not stored quantity or daily exposure,24,M18
+2024,A,Rwanda (national),Dessert banana,Sold,70.17603,Published share of crop-group production; not stored quantity or daily exposure,24,C19
+2024,A,Rwanda (national),Dessert banana,Own consumption,26.21482,Published share of crop-group production; not stored quantity or daily exposure,24,D19
+2024,A,Rwanda (national),Dessert banana,Wages for hired labour,0.10269999999999999,Published share of crop-group production; not stored quantity or daily exposure,24,E19
+2024,A,Rwanda (national),Dessert banana,Farm rent,0.13321,Published share of crop-group production; not stored quantity or daily exposure,24,F19
+2024,A,Rwanda (national),Dessert banana,Offered as gift,2.55804,Published share of crop-group production; not stored quantity or daily exposure,24,G19
+2024,A,Rwanda (national),Dessert banana,Barter trade/Exchanged with other things,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,H19
+2024,A,Rwanda (national),Dessert banana,Seeds,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,I19
+2024,A,Rwanda (national),Dessert banana,Fodder purpose,0.04838,Published share of crop-group production; not stored quantity or daily exposure,24,J19
+2024,A,Rwanda (national),Dessert banana,Stored,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,K19
+2024,A,Rwanda (national),Dessert banana,Post harvesting losses,0.16272,Published share of crop-group production; not stored quantity or daily exposure,24,L19
+2024,A,Rwanda (national),Dessert banana,Other usage,0.6041099999999999,Published share of crop-group production; not stored quantity or daily exposure,24,M19
+2024,A,Rwanda (national),Banana for beer,Sold,83.94087,Published share of crop-group production; not stored quantity or daily exposure,24,C20
+2024,A,Rwanda (national),Banana for beer,Own consumption,10.736519999999999,Published share of crop-group production; not stored quantity or daily exposure,24,D20
+2024,A,Rwanda (national),Banana for beer,Wages for hired labour,0.15675,Published share of crop-group production; not stored quantity or daily exposure,24,E20
+2024,A,Rwanda (national),Banana for beer,Farm rent,0.01352,Published share of crop-group production; not stored quantity or daily exposure,24,F20
+2024,A,Rwanda (national),Banana for beer,Offered as gift,3.80254,Published share of crop-group production; not stored quantity or daily exposure,24,G20
+2024,A,Rwanda (national),Banana for beer,Barter trade/Exchanged with other things,0.00112,Published share of crop-group production; not stored quantity or daily exposure,24,H20
+2024,A,Rwanda (national),Banana for beer,Seeds,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,I20
+2024,A,Rwanda (national),Banana for beer,Fodder purpose,0.08145999999999999,Published share of crop-group production; not stored quantity or daily exposure,24,J20
+2024,A,Rwanda (national),Banana for beer,Stored,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,K20
+2024,A,Rwanda (national),Banana for beer,Post harvesting losses,0.73924,Published share of crop-group production; not stored quantity or daily exposure,24,L20
+2024,A,Rwanda (national),Banana for beer,Other usage,0.52799,Published share of crop-group production; not stored quantity or daily exposure,24,M20
+2024,A,Rwanda (national),Vegetables,Sold,76.66887,Published share of crop-group production; not stored quantity or daily exposure,24,C21
+2024,A,Rwanda (national),Vegetables,Own consumption,16.93543,Published share of crop-group production; not stored quantity or daily exposure,24,D21
+2024,A,Rwanda (national),Vegetables,Wages for hired labour,0.33853,Published share of crop-group production; not stored quantity or daily exposure,24,E21
+2024,A,Rwanda (national),Vegetables,Farm rent,0.29594,Published share of crop-group production; not stored quantity or daily exposure,24,F21
+2024,A,Rwanda (national),Vegetables,Offered as gift,3.8984900000000002,Published share of crop-group production; not stored quantity or daily exposure,24,G21
+2024,A,Rwanda (national),Vegetables,Barter trade/Exchanged with other things,0.02162,Published share of crop-group production; not stored quantity or daily exposure,24,H21
+2024,A,Rwanda (national),Vegetables,Seeds,0.64646,Published share of crop-group production; not stored quantity or daily exposure,24,I21
+2024,A,Rwanda (national),Vegetables,Fodder purpose,0.000289,Published share of crop-group production; not stored quantity or daily exposure,24,J21
+2024,A,Rwanda (national),Vegetables,Stored,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,K21
+2024,A,Rwanda (national),Vegetables,Post harvesting losses,0.9421999999999999,Published share of crop-group production; not stored quantity or daily exposure,24,L21
+2024,A,Rwanda (national),Vegetables,Other usage,0.25217,Published share of crop-group production; not stored quantity or daily exposure,24,M21
+2024,A,Rwanda (national),Fruits,Sold,86.28263000000001,Published share of crop-group production; not stored quantity or daily exposure,24,C22
+2024,A,Rwanda (national),Fruits,Own consumption,8.710759999999999,Published share of crop-group production; not stored quantity or daily exposure,24,D22
+2024,A,Rwanda (national),Fruits,Wages for hired labour,0.33013000000000003,Published share of crop-group production; not stored quantity or daily exposure,24,E22
+2024,A,Rwanda (national),Fruits,Farm rent,0.33097,Published share of crop-group production; not stored quantity or daily exposure,24,F22
+2024,A,Rwanda (national),Fruits,Offered as gift,3.89568,Published share of crop-group production; not stored quantity or daily exposure,24,G22
+2024,A,Rwanda (national),Fruits,Barter trade/Exchanged with other things,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,H22
+2024,A,Rwanda (national),Fruits,Seeds,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,I22
+2024,A,Rwanda (national),Fruits,Fodder purpose,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,J22
+2024,A,Rwanda (national),Fruits,Stored,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,K22
+2024,A,Rwanda (national),Fruits,Post harvesting losses,0.22449000000000002,Published share of crop-group production; not stored quantity or daily exposure,24,L22
+2024,A,Rwanda (national),Fruits,Other usage,0.22534,Published share of crop-group production; not stored quantity or daily exposure,24,M22
+2024,A,Rwanda (national),Fodder crops,Sold,2.35801,Published share of crop-group production; not stored quantity or daily exposure,24,C23
+2024,A,Rwanda (national),Fodder crops,Own consumption,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,D23
+2024,A,Rwanda (national),Fodder crops,Wages for hired labour,2.30783,Published share of crop-group production; not stored quantity or daily exposure,24,E23
+2024,A,Rwanda (national),Fodder crops,Farm rent,0.020900000000000002,Published share of crop-group production; not stored quantity or daily exposure,24,F23
+2024,A,Rwanda (national),Fodder crops,Offered as gift,0.64491,Published share of crop-group production; not stored quantity or daily exposure,24,G23
+2024,A,Rwanda (national),Fodder crops,Barter trade/Exchanged with other things,0.05888,Published share of crop-group production; not stored quantity or daily exposure,24,H23
+2024,A,Rwanda (national),Fodder crops,Seeds,0.00031099999999999997,Published share of crop-group production; not stored quantity or daily exposure,24,I23
+2024,A,Rwanda (national),Fodder crops,Fodder purpose,93.86256,Published share of crop-group production; not stored quantity or daily exposure,24,J23
+2024,A,Rwanda (national),Fodder crops,Stored,0.01705,Published share of crop-group production; not stored quantity or daily exposure,24,K23
+2024,A,Rwanda (national),Fodder crops,Post harvesting losses,0.00125,Published share of crop-group production; not stored quantity or daily exposure,24,L23
+2024,A,Rwanda (national),Fodder crops,Other usage,0.7283000000000001,Published share of crop-group production; not stored quantity or daily exposure,24,M23
+2024,A,Rwanda (national),Other crops,Sold,84.04402,Published share of crop-group production; not stored quantity or daily exposure,24,C24
+2024,A,Rwanda (national),Other crops,Own consumption,7.65257,Published share of crop-group production; not stored quantity or daily exposure,24,D24
+2024,A,Rwanda (national),Other crops,Wages for hired labour,0.01121,Published share of crop-group production; not stored quantity or daily exposure,24,E24
+2024,A,Rwanda (national),Other crops,Farm rent,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,F24
+2024,A,Rwanda (national),Other crops,Offered as gift,2.1740700000000004,Published share of crop-group production; not stored quantity or daily exposure,24,G24
+2024,A,Rwanda (national),Other crops,Barter trade/Exchanged with other things,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,H24
+2024,A,Rwanda (national),Other crops,Seeds,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,I24
+2024,A,Rwanda (national),Other crops,Fodder purpose,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,J24
+2024,A,Rwanda (national),Other crops,Stored,0.0,Published share of crop-group production; not stored quantity or daily exposure,24,K24
+2024,A,Rwanda (national),Other crops,Post harvesting losses,0.30605,Published share of crop-group production; not stored quantity or daily exposure,24,L24
+2024,A,Rwanda (national),Other crops,Other usage,5.81208,Published share of crop-group production; not stored quantity or daily exposure,24,M24
+2024,B,Rwanda (national),Maize,Sold,33.0675,Published share of crop-group production; not stored quantity or daily exposure,25,C4
+2024,B,Rwanda (national),Maize,Own consumption,54.27011,Published share of crop-group production; not stored quantity or daily exposure,25,D4
+2024,B,Rwanda (national),Maize,Wages for hired labour,1.61064,Published share of crop-group production; not stored quantity or daily exposure,25,E4
+2024,B,Rwanda (national),Maize,Farm rent,2.4249199999999997,Published share of crop-group production; not stored quantity or daily exposure,25,F4
+2024,B,Rwanda (national),Maize,Offered as gift,5.09314,Published share of crop-group production; not stored quantity or daily exposure,25,G4
+2024,B,Rwanda (national),Maize,Barter trade/Exchanged with other things,0.04572,Published share of crop-group production; not stored quantity or daily exposure,25,H4
+2024,B,Rwanda (national),Maize,Seeds,0.6735800000000001,Published share of crop-group production; not stored quantity or daily exposure,25,I4
+2024,B,Rwanda (national),Maize,Fodder purpose,0.89886,Published share of crop-group production; not stored quantity or daily exposure,25,J4
+2024,B,Rwanda (national),Maize,Stored,1.40366,Published share of crop-group production; not stored quantity or daily exposure,25,K4
+2024,B,Rwanda (national),Maize,Post harvesting losses,0.17328000000000002,Published share of crop-group production; not stored quantity or daily exposure,25,L4
+2024,B,Rwanda (national),Maize,Other usage,0.3386,Published share of crop-group production; not stored quantity or daily exposure,25,M4
+2024,B,Rwanda (national),Sorghum,Sold,56.67826,Published share of crop-group production; not stored quantity or daily exposure,25,C5
+2024,B,Rwanda (national),Sorghum,Own consumption,30.71571,Published share of crop-group production; not stored quantity or daily exposure,25,D5
+2024,B,Rwanda (national),Sorghum,Wages for hired labour,0.46527,Published share of crop-group production; not stored quantity or daily exposure,25,E5
+2024,B,Rwanda (national),Sorghum,Farm rent,2.23876,Published share of crop-group production; not stored quantity or daily exposure,25,F5
+2024,B,Rwanda (national),Sorghum,Offered as gift,5.5828299999999995,Published share of crop-group production; not stored quantity or daily exposure,25,G5
+2024,B,Rwanda (national),Sorghum,Barter trade/Exchanged with other things,0.01996,Published share of crop-group production; not stored quantity or daily exposure,25,H5
+2024,B,Rwanda (national),Sorghum,Seeds,3.13565,Published share of crop-group production; not stored quantity or daily exposure,25,I5
+2024,B,Rwanda (national),Sorghum,Fodder purpose,0.013420000000000001,Published share of crop-group production; not stored quantity or daily exposure,25,J5
+2024,B,Rwanda (national),Sorghum,Stored,0.62721,Published share of crop-group production; not stored quantity or daily exposure,25,K5
+2024,B,Rwanda (national),Sorghum,Post harvesting losses,0.25264,Published share of crop-group production; not stored quantity or daily exposure,25,L5
+2024,B,Rwanda (national),Sorghum,Other usage,0.27029,Published share of crop-group production; not stored quantity or daily exposure,25,M5
+2024,B,Rwanda (national),Paddy rice,Sold,81.31212,Published share of crop-group production; not stored quantity or daily exposure,25,C6
+2024,B,Rwanda (national),Paddy rice,Own consumption,16.1877,Published share of crop-group production; not stored quantity or daily exposure,25,D6
+2024,B,Rwanda (national),Paddy rice,Wages for hired labour,0.06787,Published share of crop-group production; not stored quantity or daily exposure,25,E6
+2024,B,Rwanda (national),Paddy rice,Farm rent,0.07418000000000001,Published share of crop-group production; not stored quantity or daily exposure,25,F6
+2024,B,Rwanda (national),Paddy rice,Offered as gift,0.15721000000000002,Published share of crop-group production; not stored quantity or daily exposure,25,G6
+2024,B,Rwanda (national),Paddy rice,Barter trade/Exchanged with other things,0.0,Published share of crop-group production; not stored quantity or daily exposure,25,H6
+2024,B,Rwanda (national),Paddy rice,Seeds,0.46571,Published share of crop-group production; not stored quantity or daily exposure,25,I6
+2024,B,Rwanda (national),Paddy rice,Fodder purpose,0.0,Published share of crop-group production; not stored quantity or daily exposure,25,J6
+2024,B,Rwanda (national),Paddy rice,Stored,0.0,Published share of crop-group production; not stored quantity or daily exposure,25,K6
+2024,B,Rwanda (national),Paddy rice,Post harvesting losses,1.4703000000000002,Published share of crop-group production; not stored quantity or daily exposure,25,L6
+2024,B,Rwanda (national),Paddy rice,Other usage,0.26491000000000003,Published share of crop-group production; not stored quantity or daily exposure,25,M6
+2024,B,Rwanda (national),Wheat,Sold,56.55414,Published share of crop-group production; not stored quantity or daily exposure,25,C7
+2024,B,Rwanda (national),Wheat,Own consumption,29.870079999999998,Published share of crop-group production; not stored quantity or daily exposure,25,D7
+2024,B,Rwanda (national),Wheat,Wages for hired labour,0.15024,Published share of crop-group production; not stored quantity or daily exposure,25,E7
+2024,B,Rwanda (national),Wheat,Farm rent,0.0,Published share of crop-group production; not stored quantity or daily exposure,25,F7
+2024,B,Rwanda (national),Wheat,Offered as gift,4.18189,Published share of crop-group production; not stored quantity or daily exposure,25,G7
+2024,B,Rwanda (national),Wheat,Barter trade/Exchanged with other things,0.3588,Published share of crop-group production; not stored quantity or daily exposure,25,H7
+2024,B,Rwanda (national),Wheat,Seeds,6.265289999999999,Published share of crop-group production; not stored quantity or daily exposure,25,I7
+2024,B,Rwanda (national),Wheat,Fodder purpose,1.04768,Published share of crop-group production; not stored quantity or daily exposure,25,J7
+2024,B,Rwanda (national),Wheat,Stored,1.4534,Published share of crop-group production; not stored quantity or daily exposure,25,K7
+2024,B,Rwanda (national),Wheat,Post harvesting losses,0.027710000000000002,Published share of crop-group production; not stored quantity or daily exposure,25,L7
+2024,B,Rwanda (national),Wheat,Other usage,0.09077,Published share of crop-group production; not stored quantity or daily exposure,25,M7
+2024,B,Rwanda (national),Other cereals,Sold,37.209579999999995,Published share of crop-group production; not stored quantity or daily exposure,25,C8
+2024,B,Rwanda (national),Other cereals,Own consumption,47.78392,Published share of crop-group production; not stored quantity or daily exposure,25,D8
+2024,B,Rwanda (national),Other cereals,Wages for hired labour,0.88372,Published share of crop-group production; not stored quantity or daily exposure,25,E8
+2024,B,Rwanda (national),Other cereals,Farm rent,1.50649,Published share of crop-group production; not stored quantity or daily exposure,25,F8
+2024,B,Rwanda (national),Other cereals,Offered as gift,4.14748,Published share of crop-group production; not stored quantity or daily exposure,25,G8
+2024,B,Rwanda (national),Other cereals,Barter trade/Exchanged with other things,0.0,Published share of crop-group production; not stored quantity or daily exposure,25,H8
+2024,B,Rwanda (national),Other cereals,Seeds,6.83082,Published share of crop-group production; not stored quantity or daily exposure,25,I8
+2024,B,Rwanda (national),Other cereals,Fodder purpose,0.09104999999999999,Published share of crop-group production; not stored quantity or daily exposure,25,J8
+2024,B,Rwanda (national),Other cereals,Stored,0.32092000000000004,Published share of crop-group production; not stored quantity or daily exposure,25,K8
+2024,B,Rwanda (national),Other cereals,Post harvesting losses,0.46187,Published share of crop-group production; not stored quantity or daily exposure,25,L8
+2024,B,Rwanda (national),Other cereals,Other usage,0.76415,Published share of crop-group production; not stored quantity or daily exposure,25,M8
+2024,B,Rwanda (national),Sweet potato,Sold,27.66396,Published share of crop-group production; not stored quantity or daily exposure,25,C9
+2024,B,Rwanda (national),Sweet potato,Own consumption,59.47022,Published share of crop-group production; not stored quantity or daily exposure,25,D9
+2024,B,Rwanda (national),Sweet potato,Wages for hired labour,1.8325799999999999,Published share of crop-group production; not stored quantity or daily exposure,25,E9
+2024,B,Rwanda (national),Sweet potato,Farm rent,0.74335,Published share of crop-group production; not stored quantity or daily exposure,25,F9
+2024,B,Rwanda (national),Sweet potato,Offered as gift,6.05113,Published share of crop-group production; not stored quantity or daily exposure,25,G9
+2024,B,Rwanda (national),Sweet potato,Barter trade/Exchanged with other things,0.031110000000000002,Published share of crop-group production; not stored quantity or daily exposure,25,H9
+2024,B,Rwanda (national),Sweet potato,Seeds,0.009840000000000002,Published share of crop-group production; not stored quantity or daily exposure,25,I9
+2024,B,Rwanda (national),Sweet potato,Fodder purpose,3.61037,Published share of crop-group production; not stored quantity or daily exposure,25,J9
+2024,B,Rwanda (national),Sweet potato,Stored,0.23995000000000002,Published share of crop-group production; not stored quantity or daily exposure,25,K9
+2024,B,Rwanda (national),Sweet potato,Post harvesting losses,0.1325,Published share of crop-group production; not stored quantity or daily exposure,25,L9
+2024,B,Rwanda (national),Sweet potato,Other usage,0.21499000000000001,Published share of crop-group production; not stored quantity or daily exposure,25,M9
+2024,B,Rwanda (national),Irish potato,Sold,55.41431,Published share of crop-group production; not stored quantity or daily exposure,25,C10
+2024,B,Rwanda (national),Irish potato,Own consumption,26.71178,Published share of crop-group production; not stored quantity or daily exposure,25,D10
+2024,B,Rwanda (national),Irish potato,Wages for hired labour,0.5619200000000001,Published share of crop-group production; not stored quantity or daily exposure,25,E10
+2024,B,Rwanda (national),Irish potato,Farm rent,0.33815,Published share of crop-group production; not stored quantity or daily exposure,25,F10
+2024,B,Rwanda (national),Irish potato,Offered as gift,3.24068,Published share of crop-group production; not stored quantity or daily exposure,25,G10
+2024,B,Rwanda (national),Irish potato,Barter trade/Exchanged with other things,0.09226,Published share of crop-group production; not stored quantity or daily exposure,25,H10
+2024,B,Rwanda (national),Irish potato,Seeds,12.815589999999998,Published share of crop-group production; not stored quantity or daily exposure,25,I10
+2024,B,Rwanda (national),Irish potato,Fodder purpose,0.0924,Published share of crop-group production; not stored quantity or daily exposure,25,J10
+2024,B,Rwanda (national),Irish potato,Stored,0.1754,Published share of crop-group production; not stored quantity or daily exposure,25,K10
+2024,B,Rwanda (national),Irish potato,Post harvesting losses,0.41137999999999997,Published share of crop-group production; not stored quantity or daily exposure,25,L10
+2024,B,Rwanda (national),Irish potato,Other usage,0.14612,Published share of crop-group production; not stored quantity or daily exposure,25,M10
+2024,B,Rwanda (national),Yam & Taro,Sold,33.01907,Published share of crop-group production; not stored quantity or daily exposure,25,C11
+2024,B,Rwanda (national),Yam & Taro,Own consumption,54.173519999999996,Published share of crop-group production; not stored quantity or daily exposure,25,D11
+2024,B,Rwanda (national),Yam & Taro,Wages for hired labour,1.58483,Published share of crop-group production; not stored quantity or daily exposure,25,E11
+2024,B,Rwanda (national),Yam & Taro,Farm rent,0.57781,Published share of crop-group production; not stored quantity or daily exposure,25,F11
+2024,B,Rwanda (national),Yam & Taro,Offered as gift,6.55043,Published share of crop-group production; not stored quantity or daily exposure,25,G11
+2024,B,Rwanda (national),Yam & Taro,Barter trade/Exchanged with other things,0.06662,Published share of crop-group production; not stored quantity or daily exposure,25,H11
+2024,B,Rwanda (national),Yam & Taro,Seeds,3.80355,Published share of crop-group production; not stored quantity or daily exposure,25,I11
+2024,B,Rwanda (national),Yam & Taro,Fodder purpose,0.01639,Published share of crop-group production; not stored quantity or daily exposure,25,J11
+2024,B,Rwanda (national),Yam & Taro,Stored,0.0,Published share of crop-group production; not stored quantity or daily exposure,25,K11
+2024,B,Rwanda (national),Yam & Taro,Post harvesting losses,0.01488,Published share of crop-group production; not stored quantity or daily exposure,25,L11
+2024,B,Rwanda (national),Yam & Taro,Other usage,0.1929,Published share of crop-group production; not stored quantity or daily exposure,25,M11
+2024,B,Rwanda (national),Cassava,Sold,58.17716000000001,Published share of crop-group production; not stored quantity or daily exposure,25,C12
+2024,B,Rwanda (national),Cassava,Own consumption,35.3046,Published share of crop-group production; not stored quantity or daily exposure,25,D12
+2024,B,Rwanda (national),Cassava,Wages for hired labour,1.0007300000000001,Published share of crop-group production; not stored quantity or daily exposure,25,E12
+2024,B,Rwanda (national),Cassava,Farm rent,1.55706,Published share of crop-group production; not stored quantity or daily exposure,25,F12
+2024,B,Rwanda (national),Cassava,Offered as gift,3.32002,Published share of crop-group production; not stored quantity or daily exposure,25,G12
+2024,B,Rwanda (national),Cassava,Barter trade/Exchanged with other things,0.0037700000000000003,Published share of crop-group production; not stored quantity or daily exposure,25,H12
+2024,B,Rwanda (national),Cassava,Seeds,0.0015,Published share of crop-group production; not stored quantity or daily exposure,25,I12
+2024,B,Rwanda (national),Cassava,Fodder purpose,0.046900000000000004,Published share of crop-group production; not stored quantity or daily exposure,25,J12
+2024,B,Rwanda (national),Cassava,Stored,0.42177,Published share of crop-group production; not stored quantity or daily exposure,25,K12
+2024,B,Rwanda (national),Cassava,Post harvesting losses,0.01497,Published share of crop-group production; not stored quantity or daily exposure,25,L12
+2024,B,Rwanda (national),Cassava,Other usage,0.1502,Published share of crop-group production; not stored quantity or daily exposure,25,M12
+2024,B,Rwanda (national),Bush bean,Sold,22.93674,Published share of crop-group production; not stored quantity or daily exposure,25,C13
+2024,B,Rwanda (national),Bush bean,Own consumption,53.46194,Published share of crop-group production; not stored quantity or daily exposure,25,D13
+2024,B,Rwanda (national),Bush bean,Wages for hired labour,1.6067000000000002,Published share of crop-group production; not stored quantity or daily exposure,25,E13
+2024,B,Rwanda (national),Bush bean,Farm rent,2.50944,Published share of crop-group production; not stored quantity or daily exposure,25,F13
+2024,B,Rwanda (national),Bush bean,Offered as gift,4.10049,Published share of crop-group production; not stored quantity or daily exposure,25,G13
+2024,B,Rwanda (national),Bush bean,Barter trade/Exchanged with other things,0.05442999999999999,Published share of crop-group production; not stored quantity or daily exposure,25,H13
+2024,B,Rwanda (national),Bush bean,Seeds,13.20156,Published share of crop-group production; not stored quantity or daily exposure,25,I13
+2024,B,Rwanda (national),Bush bean,Fodder purpose,0.013669999999999998,Published share of crop-group production; not stored quantity or daily exposure,25,J13
+2024,B,Rwanda (national),Bush bean,Stored,1.38631,Published share of crop-group production; not stored quantity or daily exposure,25,K13
+2024,B,Rwanda (national),Bush bean,Post harvesting losses,0.27571,Published share of crop-group production; not stored quantity or daily exposure,25,L13
+2024,B,Rwanda (national),Bush bean,Other usage,0.45302,Published share of crop-group production; not stored quantity or daily exposure,25,M13
+2024,B,Rwanda (national),Climbing bean,Sold,17.15804,Published share of crop-group production; not stored quantity or daily exposure,25,C14
+2024,B,Rwanda (national),Climbing bean,Own consumption,57.25755,Published share of crop-group production; not stored quantity or daily exposure,25,D14
+2024,B,Rwanda (national),Climbing bean,Wages for hired labour,1.04718,Published share of crop-group production; not stored quantity or daily exposure,25,E14
+2024,B,Rwanda (national),Climbing bean,Farm rent,0.8800399999999999,Published share of crop-group production; not stored quantity or daily exposure,25,F14
+2024,B,Rwanda (national),Climbing bean,Offered as gift,7.42675,Published share of crop-group production; not stored quantity or daily exposure,25,G14
+2024,B,Rwanda (national),Climbing bean,Barter trade/Exchanged with other things,0.12597999999999998,Published share of crop-group production; not stored quantity or daily exposure,25,H14
+2024,B,Rwanda (national),Climbing bean,Seeds,14.41818,Published share of crop-group production; not stored quantity or daily exposure,25,I14
+2024,B,Rwanda (national),Climbing bean,Fodder purpose,0.02087,Published share of crop-group production; not stored quantity or daily exposure,25,J14
+2024,B,Rwanda (national),Climbing bean,Stored,1.33808,Published share of crop-group production; not stored quantity or daily exposure,25,K14
+2024,B,Rwanda (national),Climbing bean,Post harvesting losses,0.16515,Published share of crop-group production; not stored quantity or daily exposure,25,L14
+2024,B,Rwanda (national),Climbing bean,Other usage,0.16218000000000002,Published share of crop-group production; not stored quantity or daily exposure,25,M14
+2024,B,Rwanda (national),Pea,Sold,33.438410000000005,Published share of crop-group production; not stored quantity or daily exposure,25,C15
+2024,B,Rwanda (national),Pea,Own consumption,49.08831,Published share of crop-group production; not stored quantity or daily exposure,25,D15
+2024,B,Rwanda (national),Pea,Wages for hired labour,0.0,Published share of crop-group production; not stored quantity or daily exposure,25,E15
+2024,B,Rwanda (national),Pea,Farm rent,0.12822,Published share of crop-group production; not stored quantity or daily exposure,25,F15
+2024,B,Rwanda (national),Pea,Offered as gift,2.2972900000000003,Published share of crop-group production; not stored quantity or daily exposure,25,G15
+2024,B,Rwanda (national),Pea,Barter trade/Exchanged with other things,0.09941,Published share of crop-group production; not stored quantity or daily exposure,25,H15
+2024,B,Rwanda (national),Pea,Seeds,14.586640000000001,Published share of crop-group production; not stored quantity or daily exposure,25,I15
+2024,B,Rwanda (national),Pea,Fodder purpose,0.027030000000000002,Published share of crop-group production; not stored quantity or daily exposure,25,J15
+2024,B,Rwanda (national),Pea,Stored,0.16029,Published share of crop-group production; not stored quantity or daily exposure,25,K15
+2024,B,Rwanda (national),Pea,Post harvesting losses,0.05553,Published share of crop-group production; not stored quantity or daily exposure,25,L15
+2024,B,Rwanda (national),Pea,Other usage,0.11886,Published share of crop-group production; not stored quantity or daily exposure,25,M15
+2024,B,Rwanda (national),Groundnut,Sold,31.790449999999996,Published share of crop-group production; not stored quantity or daily exposure,25,C16
+2024,B,Rwanda (national),Groundnut,Own consumption,38.736340000000006,Published share of crop-group production; not stored quantity or daily exposure,25,D16
+2024,B,Rwanda (national),Groundnut,Wages for hired labour,0.47904,Published share of crop-group production; not stored quantity or daily exposure,25,E16
+2024,B,Rwanda (national),Groundnut,Farm rent,1.67881,Published share of crop-group production; not stored quantity or daily exposure,25,F16
+2024,B,Rwanda (national),Groundnut,Offered as gift,5.54075,Published share of crop-group production; not stored quantity or daily exposure,25,G16
+2024,B,Rwanda (national),Groundnut,Barter trade/Exchanged with other things,0.06457,Published share of crop-group production; not stored quantity or daily exposure,25,H16
+2024,B,Rwanda (national),Groundnut,Seeds,20.66297,Published share of crop-group production; not stored quantity or daily exposure,25,I16
+2024,B,Rwanda (national),Groundnut,Fodder purpose,0.0,Published share of crop-group production; not stored quantity or daily exposure,25,J16
+2024,B,Rwanda (national),Groundnut,Stored,0.84344,Published share of crop-group production; not stored quantity or daily exposure,25,K16
+2024,B,Rwanda (national),Groundnut,Post harvesting losses,0.07525,Published share of crop-group production; not stored quantity or daily exposure,25,L16
+2024,B,Rwanda (national),Groundnut,Other usage,0.12838000000000002,Published share of crop-group production; not stored quantity or daily exposure,25,M16
+2024,B,Rwanda (national),Soybean,Sold,28.33824,Published share of crop-group production; not stored quantity or daily exposure,25,C17
+2024,B,Rwanda (national),Soybean,Own consumption,49.030240000000006,Published share of crop-group production; not stored quantity or daily exposure,25,D17
+2024,B,Rwanda (national),Soybean,Wages for hired labour,0.40126,Published share of crop-group production; not stored quantity or daily exposure,25,E17
+2024,B,Rwanda (national),Soybean,Farm rent,0.95548,Published share of crop-group production; not stored quantity or daily exposure,25,F17
+2024,B,Rwanda (national),Soybean,Offered as gift,3.7780899999999997,Published share of crop-group production; not stored quantity or daily exposure,25,G17
+2024,B,Rwanda (national),Soybean,Barter trade/Exchanged with other things,0.10755999999999999,Published share of crop-group production; not stored quantity or daily exposure,25,H17
+2024,B,Rwanda (national),Soybean,Seeds,15.47187,Published share of crop-group production; not stored quantity or daily exposure,25,I17
+2024,B,Rwanda (national),Soybean,Fodder purpose,0.66313,Published share of crop-group production; not stored quantity or daily exposure,25,J17
+2024,B,Rwanda (national),Soybean,Stored,0.93823,Published share of crop-group production; not stored quantity or daily exposure,25,K17
+2024,B,Rwanda (national),Soybean,Post harvesting losses,0.23922000000000002,Published share of crop-group production; not stored quantity or daily exposure,25,L17
+2024,B,Rwanda (national),Soybean,Other usage,0.07669000000000001,Published share of crop-group production; not stored quantity or daily exposure,25,M17
+2024,B,Rwanda (national),Cooking banana,Sold,53.432919999999996,Published share of crop-group production; not stored quantity or daily exposure,25,C18
+2024,B,Rwanda (national),Cooking banana,Own consumption,40.83155,Published share of crop-group production; not stored quantity or daily exposure,25,D18
+2024,B,Rwanda (national),Cooking banana,Wages for hired labour,1.01278,Published share of crop-group production; not stored quantity or daily exposure,25,E18
+2024,B,Rwanda (national),Cooking banana,Farm rent,0.07628,Published share of crop-group production; not stored quantity or daily exposure,25,F18
+2024,B,Rwanda (national),Cooking banana,Offered as gift,4.1372800000000005,Published share of crop-group production; not stored quantity or daily exposure,25,G18
+2024,B,Rwanda (national),Cooking banana,Barter trade/Exchanged with other things,0.006,Published share of crop-group production; not stored quantity or daily exposure,25,H18
+2024,B,Rwanda (national),Cooking banana,Seeds,0.0,Published share of crop-group production; not stored quantity or daily exposure,25,I18
+2024,B,Rwanda (national),Cooking banana,Fodder purpose,0.010660000000000001,Published share of crop-group production; not stored quantity or daily exposure,25,J18
+2024,B,Rwanda (national),Cooking banana,Stored,0.01773,Published share of crop-group production; not stored quantity or daily exposure,25,K18
+2024,B,Rwanda (national),Cooking banana,Post harvesting losses,0.07186999999999999,Published share of crop-group production; not stored quantity or daily exposure,25,L18
+2024,B,Rwanda (national),Cooking banana,Other usage,0.40293000000000007,Published share of crop-group production; not stored quantity or daily exposure,25,M18
+2024,B,Rwanda (national),Dessert banana,Sold,72.21875,Published share of crop-group production; not stored quantity or daily exposure,25,C19
+2024,B,Rwanda (national),Dessert banana,Own consumption,23.57115,Published share of crop-group production; not stored quantity or daily exposure,25,D19
+2024,B,Rwanda (national),Dessert banana,Wages for hired labour,0.06532,Published share of crop-group production; not stored quantity or daily exposure,25,E19
+2024,B,Rwanda (national),Dessert banana,Farm rent,0.05909,Published share of crop-group production; not stored quantity or daily exposure,25,F19
+2024,B,Rwanda (national),Dessert banana,Offered as gift,3.27278,Published share of crop-group production; not stored quantity or daily exposure,25,G19
+2024,B,Rwanda (national),Dessert banana,Barter trade/Exchanged with other things,0.00447,Published share of crop-group production; not stored quantity or daily exposure,25,H19
+2024,B,Rwanda (national),Dessert banana,Seeds,0.00254,Published share of crop-group production; not stored quantity or daily exposure,25,I19
+2024,B,Rwanda (national),Dessert banana,Fodder purpose,0.023540000000000002,Published share of crop-group production; not stored quantity or daily exposure,25,J19
+2024,B,Rwanda (national),Dessert banana,Stored,0.00311,Published share of crop-group production; not stored quantity or daily exposure,25,K19
+2024,B,Rwanda (national),Dessert banana,Post harvesting losses,0.25923,Published share of crop-group production; not stored quantity or daily exposure,25,L19
+2024,B,Rwanda (national),Dessert banana,Other usage,0.52001,Published share of crop-group production; not stored quantity or daily exposure,25,M19
+2024,B,Rwanda (national),Banana for beer,Sold,80.68973,Published share of crop-group production; not stored quantity or daily exposure,25,C20
+2024,B,Rwanda (national),Banana for beer,Own consumption,11.57604,Published share of crop-group production; not stored quantity or daily exposure,25,D20
+2024,B,Rwanda (national),Banana for beer,Wages for hired labour,0.1413,Published share of crop-group production; not stored quantity or daily exposure,25,E20
+2024,B,Rwanda (national),Banana for beer,Farm rent,0.09689,Published share of crop-group production; not stored quantity or daily exposure,25,F20
+2024,B,Rwanda (national),Banana for beer,Offered as gift,6.0397300000000005,Published share of crop-group production; not stored quantity or daily exposure,25,G20
+2024,B,Rwanda (national),Banana for beer,Barter trade/Exchanged with other things,0.01423,Published share of crop-group production; not stored quantity or daily exposure,25,H20
+2024,B,Rwanda (national),Banana for beer,Seeds,0.0,Published share of crop-group production; not stored quantity or daily exposure,25,I20
+2024,B,Rwanda (national),Banana for beer,Fodder purpose,0.02769,Published share of crop-group production; not stored quantity or daily exposure,25,J20
+2024,B,Rwanda (national),Banana for beer,Stored,0.0,Published share of crop-group production; not stored quantity or daily exposure,25,K20
+2024,B,Rwanda (national),Banana for beer,Post harvesting losses,1.0264600000000002,Published share of crop-group production; not stored quantity or daily exposure,25,L20
+2024,B,Rwanda (national),Banana for beer,Other usage,0.38792000000000004,Published share of crop-group production; not stored quantity or daily exposure,25,M20
+2024,B,Rwanda (national),Vegetables,Sold,83.69319,Published share of crop-group production; not stored quantity or daily exposure,25,C21
+2024,B,Rwanda (national),Vegetables,Own consumption,10.80283,Published share of crop-group production; not stored quantity or daily exposure,25,D21
+2024,B,Rwanda (national),Vegetables,Wages for hired labour,0.12799,Published share of crop-group production; not stored quantity or daily exposure,25,E21
+2024,B,Rwanda (national),Vegetables,Farm rent,0.08793,Published share of crop-group production; not stored quantity or daily exposure,25,F21
+2024,B,Rwanda (national),Vegetables,Offered as gift,3.0307,Published share of crop-group production; not stored quantity or daily exposure,25,G21
+2024,B,Rwanda (national),Vegetables,Barter trade/Exchanged with other things,0.01069,Published share of crop-group production; not stored quantity or daily exposure,25,H21
+2024,B,Rwanda (national),Vegetables,Seeds,1.23092,Published share of crop-group production; not stored quantity or daily exposure,25,I21
+2024,B,Rwanda (national),Vegetables,Fodder purpose,0.20506000000000002,Published share of crop-group production; not stored quantity or daily exposure,25,J21
+2024,B,Rwanda (national),Vegetables,Stored,0.059460000000000006,Published share of crop-group production; not stored quantity or daily exposure,25,K21
+2024,B,Rwanda (national),Vegetables,Post harvesting losses,0.60622,Published share of crop-group production; not stored quantity or daily exposure,25,L21
+2024,B,Rwanda (national),Vegetables,Other usage,0.14501,Published share of crop-group production; not stored quantity or daily exposure,25,M21
+2024,B,Rwanda (national),Fruits,Sold,90.52837,Published share of crop-group production; not stored quantity or daily exposure,25,C22
+2024,B,Rwanda (national),Fruits,Own consumption,6.642779999999999,Published share of crop-group production; not stored quantity or daily exposure,25,D22
+2024,B,Rwanda (national),Fruits,Wages for hired labour,0.12707000000000002,Published share of crop-group production; not stored quantity or daily exposure,25,E22
+2024,B,Rwanda (national),Fruits,Farm rent,0.0,Published share of crop-group production; not stored quantity or daily exposure,25,F22
+2024,B,Rwanda (national),Fruits,Offered as gift,2.3909599999999998,Published share of crop-group production; not stored quantity or daily exposure,25,G22
+2024,B,Rwanda (national),Fruits,Barter trade/Exchanged with other things,0.0,Published share of crop-group production; not stored quantity or daily exposure,25,H22
+2024,B,Rwanda (national),Fruits,Seeds,0.02186,Published share of crop-group production; not stored quantity or daily exposure,25,I22
+2024,B,Rwanda (national),Fruits,Fodder purpose,0.0,Published share of crop-group production; not stored quantity or daily exposure,25,J22
+2024,B,Rwanda (national),Fruits,Stored,0.0,Published share of crop-group production; not stored quantity or daily exposure,25,K22
+2024,B,Rwanda (national),Fruits,Post harvesting losses,0.22093999999999997,Published share of crop-group production; not stored quantity or daily exposure,25,L22
+2024,B,Rwanda (national),Fruits,Other usage,0.06801,Published share of crop-group production; not stored quantity or daily exposure,25,M22
+2024,B,Rwanda (national),Fodder crops,Sold,2.9063499999999998,Published share of crop-group production; not stored quantity or daily exposure,25,C23
+2024,B,Rwanda (national),Fodder crops,Own consumption,0.0,Published share of crop-group production; not stored quantity or daily exposure,25,D23
+2024,B,Rwanda (national),Fodder crops,Wages for hired labour,1.9115199999999999,Published share of crop-group production; not stored quantity or daily exposure,25,E23
+2024,B,Rwanda (national),Fodder crops,Farm rent,0.0,Published share of crop-group production; not stored quantity or daily exposure,25,F23
+2024,B,Rwanda (national),Fodder crops,Offered as gift,0.85879,Published share of crop-group production; not stored quantity or daily exposure,25,G23
+2024,B,Rwanda (national),Fodder crops,Barter trade/Exchanged with other things,0.0,Published share of crop-group production; not stored quantity or daily exposure,25,H23
+2024,B,Rwanda (national),Fodder crops,Seeds,0.0,Published share of crop-group production; not stored quantity or daily exposure,25,I23
+2024,B,Rwanda (national),Fodder crops,Fodder purpose,92.7067,Published share of crop-group production; not stored quantity or daily exposure,25,J23
+2024,B,Rwanda (national),Fodder crops,Stored,1.13419,Published share of crop-group production; not stored quantity or daily exposure,25,K23
+2024,B,Rwanda (national),Fodder crops,Post harvesting losses,0.00346,Published share of crop-group production; not stored quantity or daily exposure,25,L23
+2024,B,Rwanda (national),Fodder crops,Other usage,0.47901000000000005,Published share of crop-group production; not stored quantity or daily exposure,25,M23
+2024,B,Rwanda (national),Other crops,Sold,93.84740000000001,Published share of crop-group production; not stored quantity or daily exposure,25,C24
+2024,B,Rwanda (national),Other crops,Own consumption,3.64385,Published share of crop-group production; not stored quantity or daily exposure,25,D24
+2024,B,Rwanda (national),Other crops,Wages for hired labour,6.390000000000001e-05,Published share of crop-group production; not stored quantity or daily exposure,25,E24
+2024,B,Rwanda (national),Other crops,Farm rent,0.0,Published share of crop-group production; not stored quantity or daily exposure,25,F24
+2024,B,Rwanda (national),Other crops,Offered as gift,0.7980700000000001,Published share of crop-group production; not stored quantity or daily exposure,25,G24
+2024,B,Rwanda (national),Other crops,Barter trade/Exchanged with other things,0.0,Published share of crop-group production; not stored quantity or daily exposure,25,H24
+2024,B,Rwanda (national),Other crops,Seeds,0.56242,Published share of crop-group production; not stored quantity or daily exposure,25,I24
+2024,B,Rwanda (national),Other crops,Fodder purpose,0.011179999999999999,Published share of crop-group production; not stored quantity or daily exposure,25,J24
+2024,B,Rwanda (national),Other crops,Stored,0.0,Published share of crop-group production; not stored quantity or daily exposure,25,K24
+2024,B,Rwanda (national),Other crops,Post harvesting losses,0.05982,Published share of crop-group production; not stored quantity or daily exposure,25,L24
+2024,B,Rwanda (national),Other crops,Other usage,1.0771899999999999,Published share of crop-group production; not stored quantity or daily exposure,25,M24
+2024,C,Rwanda (national),Sweet potato,Sold,31.648939999999996,Published share of crop-group production; not stored quantity or daily exposure,26,C5
+2024,C,Rwanda (national),Sweet potato,Auto consumption,54.58708,Published share of crop-group production; not stored quantity or daily exposure,26,D5
+2024,C,Rwanda (national),Sweet potato,Wages for hired labour,2.27855,Published share of crop-group production; not stored quantity or daily exposure,26,E5
+2024,C,Rwanda (national),Sweet potato,Farm rent,0.56786,Published share of crop-group production; not stored quantity or daily exposure,26,F5
+2024,C,Rwanda (national),Sweet potato,Offered as gift,6.5585,Published share of crop-group production; not stored quantity or daily exposure,26,G5
+2024,C,Rwanda (national),Sweet potato,Barter trade / Exchanged with other things,0.00526,Published share of crop-group production; not stored quantity or daily exposure,26,H5
+2024,C,Rwanda (national),Sweet potato,Seeds,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,I5
+2024,C,Rwanda (national),Sweet potato,Fodder purposes,3.9805599999999997,Published share of crop-group production; not stored quantity or daily exposure,26,J5
+2024,C,Rwanda (national),Sweet potato,Stored,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,K5
+2024,C,Rwanda (national),Sweet potato,Post harvesting losses,0.1559,Published share of crop-group production; not stored quantity or daily exposure,26,L5
+2024,C,Rwanda (national),Sweet potato,Other usage,0.21733999999999998,Published share of crop-group production; not stored quantity or daily exposure,26,M5
+2024,C,Rwanda (national),Irish potato,Sold,58.69544,Published share of crop-group production; not stored quantity or daily exposure,26,C6
+2024,C,Rwanda (national),Irish potato,Auto consumption,24.640790000000003,Published share of crop-group production; not stored quantity or daily exposure,26,D6
+2024,C,Rwanda (national),Irish potato,Wages for hired labour,0.40921,Published share of crop-group production; not stored quantity or daily exposure,26,E6
+2024,C,Rwanda (national),Irish potato,Farm rent,0.00469,Published share of crop-group production; not stored quantity or daily exposure,26,F6
+2024,C,Rwanda (national),Irish potato,Offered as gift,5.07349,Published share of crop-group production; not stored quantity or daily exposure,26,G6
+2024,C,Rwanda (national),Irish potato,Barter trade / Exchanged with other things,0.01038,Published share of crop-group production; not stored quantity or daily exposure,26,H6
+2024,C,Rwanda (national),Irish potato,Seeds,10.515979999999999,Published share of crop-group production; not stored quantity or daily exposure,26,I6
+2024,C,Rwanda (national),Irish potato,Fodder purposes,0.20374,Published share of crop-group production; not stored quantity or daily exposure,26,J6
+2024,C,Rwanda (national),Irish potato,Stored,0.07074,Published share of crop-group production; not stored quantity or daily exposure,26,K6
+2024,C,Rwanda (national),Irish potato,Post harvesting losses,0.33057,Published share of crop-group production; not stored quantity or daily exposure,26,L6
+2024,C,Rwanda (national),Irish potato,Other usage,0.04498,Published share of crop-group production; not stored quantity or daily exposure,26,M6
+2024,C,Rwanda (national),Bush bean,Sold,19.461319999999997,Published share of crop-group production; not stored quantity or daily exposure,26,C7
+2024,C,Rwanda (national),Bush bean,Auto consumption,56.427780000000006,Published share of crop-group production; not stored quantity or daily exposure,26,D7
+2024,C,Rwanda (national),Bush bean,Wages for hired labour,1.5655,Published share of crop-group production; not stored quantity or daily exposure,26,E7
+2024,C,Rwanda (national),Bush bean,Farm rent,0.048260000000000004,Published share of crop-group production; not stored quantity or daily exposure,26,F7
+2024,C,Rwanda (national),Bush bean,Offered as gift,5.45623,Published share of crop-group production; not stored quantity or daily exposure,26,G7
+2024,C,Rwanda (national),Bush bean,Barter trade / Exchanged with other things,0.0429,Published share of crop-group production; not stored quantity or daily exposure,26,H7
+2024,C,Rwanda (national),Bush bean,Seeds,15.49352,Published share of crop-group production; not stored quantity or daily exposure,26,I7
+2024,C,Rwanda (national),Bush bean,Fodder purposes,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,J7
+2024,C,Rwanda (national),Bush bean,Stored,1.21943,Published share of crop-group production; not stored quantity or daily exposure,26,K7
+2024,C,Rwanda (national),Bush bean,Post harvesting losses,0.17351,Published share of crop-group production; not stored quantity or daily exposure,26,L7
+2024,C,Rwanda (national),Bush bean,Other usage,0.11153999999999999,Published share of crop-group production; not stored quantity or daily exposure,26,M7
+2024,C,Rwanda (national),Climbing bean,Sold,14.10256,Published share of crop-group production; not stored quantity or daily exposure,26,C8
+2024,C,Rwanda (national),Climbing bean,Auto consumption,75.17163,Published share of crop-group production; not stored quantity or daily exposure,26,D8
+2024,C,Rwanda (national),Climbing bean,Wages for hired labour,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,E8
+2024,C,Rwanda (national),Climbing bean,Farm rent,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,F8
+2024,C,Rwanda (national),Climbing bean,Offered as gift,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,G8
+2024,C,Rwanda (national),Climbing bean,Barter trade / Exchanged with other things,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,H8
+2024,C,Rwanda (national),Climbing bean,Seeds,10.72581,Published share of crop-group production; not stored quantity or daily exposure,26,I8
+2024,C,Rwanda (national),Climbing bean,Fodder purposes,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,J8
+2024,C,Rwanda (national),Climbing bean,Stored,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,K8
+2024,C,Rwanda (national),Climbing bean,Post harvesting losses,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,L8
+2024,C,Rwanda (national),Climbing bean,Other usage,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,M8
+2024,C,Rwanda (national),Pea,Sold,67.17042,Published share of crop-group production; not stored quantity or daily exposure,26,C9
+2024,C,Rwanda (national),Pea,Auto consumption,24.99118,Published share of crop-group production; not stored quantity or daily exposure,26,D9
+2024,C,Rwanda (national),Pea,Wages for hired labour,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,E9
+2024,C,Rwanda (national),Pea,Farm rent,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,F9
+2024,C,Rwanda (national),Pea,Offered as gift,2.80917,Published share of crop-group production; not stored quantity or daily exposure,26,G9
+2024,C,Rwanda (national),Pea,Barter trade / Exchanged with other things,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,H9
+2024,C,Rwanda (national),Pea,Seeds,4.7788200000000005,Published share of crop-group production; not stored quantity or daily exposure,26,I9
+2024,C,Rwanda (national),Pea,Fodder purposes,0.23419,Published share of crop-group production; not stored quantity or daily exposure,26,J9
+2024,C,Rwanda (national),Pea,Stored,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,K9
+2024,C,Rwanda (national),Pea,Post harvesting losses,0.016229999999999998,Published share of crop-group production; not stored quantity or daily exposure,26,L9
+2024,C,Rwanda (national),Pea,Other usage,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,M9
+2024,C,Rwanda (national),Groundnut,Sold,50.0,Published share of crop-group production; not stored quantity or daily exposure,26,C10
+2024,C,Rwanda (national),Groundnut,Auto consumption,25.0,Published share of crop-group production; not stored quantity or daily exposure,26,D10
+2024,C,Rwanda (national),Groundnut,Wages for hired labour,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,E10
+2024,C,Rwanda (national),Groundnut,Farm rent,25.0,Published share of crop-group production; not stored quantity or daily exposure,26,F10
+2024,C,Rwanda (national),Groundnut,Offered as gift,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,G10
+2024,C,Rwanda (national),Groundnut,Barter trade / Exchanged with other things,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,H10
+2024,C,Rwanda (national),Groundnut,Seeds,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,I10
+2024,C,Rwanda (national),Groundnut,Fodder purposes,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,J10
+2024,C,Rwanda (national),Groundnut,Stored,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,K10
+2024,C,Rwanda (national),Groundnut,Post harvesting losses,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,L10
+2024,C,Rwanda (national),Groundnut,Other usage,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,M10
+2024,C,Rwanda (national),Soybean,Sold,36.0811,Published share of crop-group production; not stored quantity or daily exposure,26,C11
+2024,C,Rwanda (national),Soybean,Auto consumption,44.57675,Published share of crop-group production; not stored quantity or daily exposure,26,D11
+2024,C,Rwanda (national),Soybean,Wages for hired labour,1.98413,Published share of crop-group production; not stored quantity or daily exposure,26,E11
+2024,C,Rwanda (national),Soybean,Farm rent,0.63492,Published share of crop-group production; not stored quantity or daily exposure,26,F11
+2024,C,Rwanda (national),Soybean,Offered as gift,4.00955,Published share of crop-group production; not stored quantity or daily exposure,26,G11
+2024,C,Rwanda (national),Soybean,Barter trade / Exchanged with other things,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,H11
+2024,C,Rwanda (national),Soybean,Seeds,12.35394,Published share of crop-group production; not stored quantity or daily exposure,26,I11
+2024,C,Rwanda (national),Soybean,Fodder purposes,0.09523999999999999,Published share of crop-group production; not stored quantity or daily exposure,26,J11
+2024,C,Rwanda (national),Soybean,Stored,0.07143,Published share of crop-group production; not stored quantity or daily exposure,26,K11
+2024,C,Rwanda (national),Soybean,Post harvesting losses,0.12946,Published share of crop-group production; not stored quantity or daily exposure,26,L11
+2024,C,Rwanda (national),Soybean,Other usage,0.06349,Published share of crop-group production; not stored quantity or daily exposure,26,M11
+2024,C,Rwanda (national),Vegetables,Sold,81.26431,Published share of crop-group production; not stored quantity or daily exposure,26,C12
+2024,C,Rwanda (national),Vegetables,Auto consumption,11.446969999999999,Published share of crop-group production; not stored quantity or daily exposure,26,D12
+2024,C,Rwanda (national),Vegetables,Wages for hired labour,0.42756,Published share of crop-group production; not stored quantity or daily exposure,26,E12
+2024,C,Rwanda (national),Vegetables,Farm rent,0.39830000000000004,Published share of crop-group production; not stored quantity or daily exposure,26,F12
+2024,C,Rwanda (national),Vegetables,Offered as gift,4.54573,Published share of crop-group production; not stored quantity or daily exposure,26,G12
+2024,C,Rwanda (national),Vegetables,Barter trade / Exchanged with other things,0.02347,Published share of crop-group production; not stored quantity or daily exposure,26,H12
+2024,C,Rwanda (national),Vegetables,Seeds,0.56003,Published share of crop-group production; not stored quantity or daily exposure,26,I12
+2024,C,Rwanda (national),Vegetables,Fodder purposes,0.06827,Published share of crop-group production; not stored quantity or daily exposure,26,J12
+2024,C,Rwanda (national),Vegetables,Stored,0.0025700000000000002,Published share of crop-group production; not stored quantity or daily exposure,26,K12
+2024,C,Rwanda (national),Vegetables,Post harvesting losses,0.9449900000000001,Published share of crop-group production; not stored quantity or daily exposure,26,L12
+2024,C,Rwanda (national),Vegetables,Other usage,0.31779,Published share of crop-group production; not stored quantity or daily exposure,26,M12
+2024,C,Rwanda (national),Other crops,Sold,99.15952999999999,Published share of crop-group production; not stored quantity or daily exposure,26,C13
+2024,C,Rwanda (national),Other crops,Auto consumption,0.41667,Published share of crop-group production; not stored quantity or daily exposure,26,D13
+2024,C,Rwanda (national),Other crops,Wages for hired labour,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,E13
+2024,C,Rwanda (national),Other crops,Farm rent,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,F13
+2024,C,Rwanda (national),Other crops,Offered as gift,0.41667,Published share of crop-group production; not stored quantity or daily exposure,26,G13
+2024,C,Rwanda (national),Other crops,Barter trade / Exchanged with other things,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,H13
+2024,C,Rwanda (national),Other crops,Seeds,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,I13
+2024,C,Rwanda (national),Other crops,Fodder purposes,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,J13
+2024,C,Rwanda (national),Other crops,Stored,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,K13
+2024,C,Rwanda (national),Other crops,Post harvesting losses,0.0071400000000000005,Published share of crop-group production; not stored quantity or daily exposure,26,L13
+2024,C,Rwanda (national),Other crops,Other usage,0.0,Published share of crop-group production; not stored quantity or daily exposure,26,M13

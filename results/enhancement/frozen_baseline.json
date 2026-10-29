@@ -1,0 +1,27 @@
+{
+  "sha256": {
+    "data/raw/tangabid_market_prices.csv": "8c2e3f03d539472a80e98ae5992adaf288d697e9f47b0a945f033b63266b502e",
+    "data/raw/tangabid_market_prices_carrots.csv": "5373c32eba308e9873f5c9e90bdb8833de2090ada93c878bf226323e4c691b1e",
+    "models/metadata.json": "e73db0f190233df9f32ce79b995c08a46d442d4ad4bd6f3c3a2588af3aad7d6a",
+    "models/selected_model.json": "da7af228d1cb30c79e543dc409cf0619439d3bb14451a34b502ea385aebac58c",
+    "models/selection.json": "a1c1e9558a123f577b8328e809d34bf97526357da8fc129034d57afaf2c78209",
+    "SAS 2024_Annual Tables.xlsx": "5c7c6024d9a7b766d9911348aa3b5d5316555c6aa4a8c53f10dc290e2d8906e6",
+    "sell-time-estimation-aisd-main.zip": "92de48d76b46c590a396ec2cc3b2db7cd44b2cd26a227304d5f2d1c3242c5629",
+    "results/model_comparison.csv": "d552f49c8bb6f413d966e253fae5edcde0023fc45a0e15755a15d9e3769c6f08",
+    "results/forecast_metrics.csv": "0da44ac678a0e96c77fbaf3c3f2ab8a21ee029b767008ae8a91e9f380452ddc3",
+    "results/decision_metrics.csv": "a2fff815fd2c7ac5c21d40786801ee24d2471579139798c7e5ea1a84d4b4c896",
+    "results/test_predictions.csv": "7431b447dbf48f121b65722f774b73711edfea85ac8322fcf40d79163677a581",
+    "results/validation_predictions.csv": "bf1070af70d117fb58d1b0790d487bfad20d7a14f08081d04cfb01c0881024dc",
+    "results/decision_simulations.csv": "deca7efff2458bff9220a46e3b4962305ae37435a885ac6c899a1824a5a5ee41",
+    "results/decision_evaluation_protocol.json": "dfaebe0c35e430ea169c57fb3bbb79cf051adf4b8c536220df26d8ef798dc13e",
+    "results/interval_coverage.csv": "56c49d0e4a0f37a84c226cafe610e514a509e0144041f93aae0d7411b051fc28",
+    "results/split_summary.json": "1adf947e078e5e866ade0edcf85eb5db76405619e47623565ea942cdf4c744c0",
+    "scripts/train_models.py": "20945fab6137f8077f17e6e1820f2b2c255e1c340e624b5e12ffbd4f0aae9879",
+    "scripts/evaluate_models.py": "0e9e22cc1e19c7dd1fe6e33f34a344198c8387124a7efdee09d0393690490eca",
+    "src/forecasting.py": "b747d64dc7d8048264cf9dde8c07c1a334e69e55fb914c73117f7f8f6068e97a",
+    "src/feature_engineering.py": "1ded40f2fe9a386007363da6c2a25f4e428f2b07e7c63b9cddeca3764e353712",
+    "src/preprocessing.py": "a023afa4d46997e314426590d07f11eee1332e54735abc18c13f7f7972473ea9",
+    "src/nisr_context.py": "6e4bc1f7aa4e4005dd5d36c63b2a01799a079d32c4bd72b175ec72ab7cd7fdba"
+  },
+  "evaluate_options_ast_sha256": "8c7e3f6116a943e78fdd334f575346846f360080efc7a5a65ddd42922e80e990"
+}

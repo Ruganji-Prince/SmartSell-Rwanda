@@ -1,0 +1,3 @@
+crop,raw_rows,clean_rows,total_rows_removed,conflicting_rows_quarantined,invalid_rows,equal_price_duplicates_removed,invalid_dates,missing_or_nonnumeric_price,nonpositive_or_nonfinite_price,first_date,last_date,crop_market_series,distinct_dates
+Carrot,3552,3160,392,3,0,389,0,0,0,2025-01-01,2026-10-14,57,389
+Tomato,3524,3106,418,2,0,416,0,0,0,2025-01-01,2026-10-14,56,389

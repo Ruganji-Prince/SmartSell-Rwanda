@@ -1,0 +1,17 @@
+{
+  "raw_rows": 7076,
+  "invalid_rows": 0,
+  "conflicting_rows": 5,
+  "redundant_equal_price_rows": 805,
+  "clean_rows": 6266,
+  "first_observation": "2025-01-01",
+  "last_observation": "2026-10-14",
+  "missing_variety_fraction": 1.0,
+  "missing_grade_fraction": 1.0,
+  "raw_sha256": {
+    "tangabid_market_prices.csv": "8c2e3f03d539472a80e98ae5992adaf288d697e9f47b0a945f033b63266b502e",
+    "tangabid_market_prices_carrots.csv": "5373c32eba308e9873f5c9e90bdb8833de2090ada93c878bf226323e4c691b1e"
+  },
+  "context_unmatched_rows": 0,
+  "context_note": "Historical 2024 Vegetables sector, not crop-specific or contemporaneous with 2025-2026 prices"
+}

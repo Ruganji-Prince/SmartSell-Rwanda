@@ -1,0 +1,7 @@
+stage,remaining,removed_at_stage
+All clean observed test-period origins,709,0
+At least one observed exact future price (published coverage denominator),249,460
+At least one future target survives horizon-specific training eligibility,209,40
+All three future calendar-day prices actually observed,22,187
+Training eligible for all three horizons,22,0
+At least two observations in trailing seven days,20,2

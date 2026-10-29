@@ -1,0 +1,13 @@
+,missing_n,missing_pct,pandas_dtype
+observed_date,0,0.0,object
+product,0,0.0,object
+unit,0,0.0,object
+variety,3524,100.0,float64
+grade,3524,100.0,float64
+channel,0,0.0,object
+location,0,0.0,object
+region,0,0.0,object
+price,0,0.0,float64
+currency,0,0.0,object
+source,0,0.0,object
+scraped_at,0,0.0,object

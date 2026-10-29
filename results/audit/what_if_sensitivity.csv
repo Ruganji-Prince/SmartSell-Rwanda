@@ -1,0 +1,5 @@
+analysis,forecast_1_day_rwf_kg,future_net_rwf,advantage_vs_sell_now_rwf,action
+WHAT-IF SCENARIO; not historical forecast,500.0,49400.0,-600.0,SELL NOW
+WHAT-IF SCENARIO; not historical forecast,506.0,49994.0,-6.0,SELL NOW
+WHAT-IF SCENARIO; not historical forecast,507.0,50093.0,93.0,WAIT 1 DAY
+WHAT-IF SCENARIO; not historical forecast,520.0,51380.0,1380.0,WAIT 1 DAY

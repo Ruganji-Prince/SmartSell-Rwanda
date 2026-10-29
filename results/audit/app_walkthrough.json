@@ -1,0 +1,259 @@
+{
+  "live_as_of": "2026-10-29",
+  "live": {
+    "errors": [
+      "INSUFFICIENT DATA"
+    ],
+    "warnings": [
+      "Price data are stale: the newest observation is 15 days old. Current-date recommendations are withheld. Use clearly labelled historical replay to explore the prototype."
+    ]
+  },
+  "replay": {
+    "selected_date": "2026-09-28",
+    "subheaders": [
+      "Storage-loss scenario / farmer assumption",
+      "Prices for the next three calendar days",
+      "SELL NOW",
+      "Will the price rise enough to make waiting worthwhile?",
+      "Data confidence",
+      "Storage-loss sensitivity \u2014 illustrative/user-defined scenarios",
+      "NISR SAS 2024: vegetable-sector context"
+    ],
+    "warnings": [
+      "Price data are stale: the newest observation is 15 days old. Current-date recommendations are withheld. Use clearly labelled historical replay to explore the prototype.",
+      "HISTORICAL REPLAY \u2014 decision as of 28 September 2026. This is not advice for today. Only observations dated on or before the selected date are used. Same-day source availability is assumed, not verified."
+    ],
+    "metrics": [
+      {
+        "label": "Latest available observed price (RWF/kg)",
+        "value": "500"
+      },
+      {
+        "label": "Expected advantage versus selling now (RWF)",
+        "value": "0"
+      },
+      {
+        "label": "Saleable quantity (kg)",
+        "value": "100.00"
+      },
+      {
+        "label": "Observed price (RWF/kg)",
+        "value": "500.00"
+      },
+      {
+        "label": "Sell-now revenue (RWF)",
+        "value": "50,000.00"
+      },
+      {
+        "label": "Break-even after 1 day(s) (RWF/kg)",
+        "value": "506.06"
+      },
+      {
+        "label": "Break-even after 2 day(s) (RWF/kg)",
+        "value": "512.19"
+      },
+      {
+        "label": "Break-even after 3 day(s) (RWF/kg)",
+        "value": "518.40"
+      },
+      {
+        "label": "Vegetables production (tonnes)",
+        "value": "1,001.9"
+      },
+      {
+        "label": "Harvested area (ha)",
+        "value": "145.8"
+      },
+      {
+        "label": "Published yield (kg/ha)",
+        "value": "6,871.7"
+      }
+    ],
+    "forecasts": [
+      {
+        "forecast_date": "2026-09-29",
+        "horizon": "1",
+        "Expected price (RWF/kg)": "500.0",
+        "Empirical lower band": "400.0",
+        "Empirical upper band": "600.0"
+      },
+      {
+        "forecast_date": "2026-09-30",
+        "horizon": "2",
+        "Expected price (RWF/kg)": "500.0",
+        "Empirical lower band": "300.0",
+        "Empirical upper band": "700.0"
+      },
+      {
+        "forecast_date": "2026-10-01",
+        "horizon": "3",
+        "Expected price (RWF/kg)": "500.0",
+        "Empirical lower band": "300.0",
+        "Empirical upper band": "700.0"
+      }
+    ],
+    "revenue_table": [
+      {
+        "Days waited": 0,
+        "Price RWF/kg": 500.0,
+        "Price change %": 0.0,
+        "Retained kg": 100.0,
+        "Lost kg": 0.0,
+        "Storage RWF": 0.0,
+        "Other RWF": 0.0,
+        "Gross RWF": 50000.0,
+        "Net RWF": 50000.0,
+        "Break-even RWF/kg": null,
+        "Required uplift RWF/kg": null,
+        "Required uplift %": null,
+        "Forecast versus threshold": null
+      },
+      {
+        "Days waited": 1,
+        "Price RWF/kg": 500.0,
+        "Price change %": 0.0,
+        "Retained kg": 99.0,
+        "Lost kg": 1.0,
+        "Storage RWF": 100.0,
+        "Other RWF": 0.0,
+        "Gross RWF": 49500.0,
+        "Net RWF": 49400.0,
+        "Break-even RWF/kg": 506.06,
+        "Required uplift RWF/kg": 6.06,
+        "Required uplift %": 1.21,
+        "Forecast versus threshold": "Forecast below break-even"
+      },
+      {
+        "Days waited": 2,
+        "Price RWF/kg": 500.0,
+        "Price change %": 0.0,
+        "Retained kg": 98.01,
+        "Lost kg": 1.99,
+        "Storage RWF": 200.0,
+        "Other RWF": 0.0,
+        "Gross RWF": 49005.0,
+        "Net RWF": 48805.0,
+        "Break-even RWF/kg": 512.19,
+        "Required uplift RWF/kg": 12.19,
+        "Required uplift %": 2.44,
+        "Forecast versus threshold": "Forecast below break-even"
+      },
+      {
+        "Days waited": 3,
+        "Price RWF/kg": 500.0,
+        "Price change %": 0.0,
+        "Retained kg": 97.03,
+        "Lost kg": 2.97,
+        "Storage RWF": 300.0,
+        "Other RWF": 0.0,
+        "Gross RWF": 48514.95,
+        "Net RWF": 48214.95,
+        "Break-even RWF/kg": 518.4,
+        "Required uplift RWF/kg": 18.4,
+        "Required uplift %": 3.68,
+        "Forecast versus threshold": "Forecast below break-even"
+      }
+    ],
+    "storage_loss_sensitivity": [
+      {
+        "Days waited": 1,
+        "Break-even RWF/kg": 501.0,
+        "Required uplift RWF/kg": 1.0,
+        "Required uplift %": 0.2,
+        "Assumed daily loss %": 0.0
+      },
+      {
+        "Days waited": 2,
+        "Break-even RWF/kg": 502.0,
+        "Required uplift RWF/kg": 2.0,
+        "Required uplift %": 0.4,
+        "Assumed daily loss %": 0.0
+      },
+      {
+        "Days waited": 3,
+        "Break-even RWF/kg": 503.0,
+        "Required uplift RWF/kg": 3.0,
+        "Required uplift %": 0.6,
+        "Assumed daily loss %": 0.0
+      },
+      {
+        "Days waited": 1,
+        "Break-even RWF/kg": 506.06,
+        "Required uplift RWF/kg": 6.06,
+        "Required uplift %": 1.21,
+        "Assumed daily loss %": 1.0
+      },
+      {
+        "Days waited": 2,
+        "Break-even RWF/kg": 512.19,
+        "Required uplift RWF/kg": 12.19,
+        "Required uplift %": 2.44,
+        "Assumed daily loss %": 1.0
+      },
+      {
+        "Days waited": 3,
+        "Break-even RWF/kg": 518.4,
+        "Required uplift RWF/kg": 18.4,
+        "Required uplift %": 3.68,
+        "Assumed daily loss %": 1.0
+      },
+      {
+        "Days waited": 1,
+        "Break-even RWF/kg": 511.22,
+        "Required uplift RWF/kg": 11.22,
+        "Required uplift %": 2.24,
+        "Assumed daily loss %": 2.0
+      },
+      {
+        "Days waited": 2,
+        "Break-even RWF/kg": 522.7,
+        "Required uplift RWF/kg": 22.7,
+        "Required uplift %": 4.54,
+        "Assumed daily loss %": 2.0
+      },
+      {
+        "Days waited": 3,
+        "Break-even RWF/kg": 534.43,
+        "Required uplift RWF/kg": 34.43,
+        "Required uplift %": 6.89,
+        "Assumed daily loss %": 2.0
+      },
+      {
+        "Days waited": 1,
+        "Break-even RWF/kg": 527.37,
+        "Required uplift RWF/kg": 27.37,
+        "Required uplift %": 5.47,
+        "Assumed daily loss %": 5.0
+      },
+      {
+        "Days waited": 2,
+        "Break-even RWF/kg": 556.23,
+        "Required uplift RWF/kg": 56.23,
+        "Required uplift %": 11.25,
+        "Assumed daily loss %": 5.0
+      },
+      {
+        "Days waited": 3,
+        "Break-even RWF/kg": 586.67,
+        "Required uplift RWF/kg": 86.67,
+        "Required uplift %": 17.33,
+        "Assumed daily loss %": 5.0
+      }
+    ]
+  },
+  "pages": {
+    "Market Trends": {
+      "exception_count": 0,
+      "dataframe_count": 1
+    },
+    "NISR Agricultural Context": {
+      "exception_count": 0,
+      "dataframe_count": 2
+    },
+    "Methodology & Limitations": {
+      "exception_count": 0,
+      "dataframe_count": 2
+    }
+  },
+  "browser_and_mobile_visual_testing": "Not performed"
+}

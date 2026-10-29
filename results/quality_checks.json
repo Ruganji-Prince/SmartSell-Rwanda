@@ -1,0 +1,103 @@
+{
+  "missing_required": [],
+  "import_errors": [],
+  "broken_local_markdown_links": [],
+  "files_over_50mb": [],
+  "active_absolute_path_hits": [],
+  "heuristic_secret_pattern_hits": [],
+  "public_machine_metadata_hits": [],
+  "raw_csv_preservation": [
+    {
+      "file": "data\\raw\\tangabid_market_prices.csv",
+      "matches_original_archive": true
+    },
+    {
+      "file": "data\\raw\\tangabid_market_prices_carrots.csv",
+      "matches_original_archive": true
+    }
+  ],
+  "input_sha256": {
+    "SAS 2024_Annual Tables.xlsx": "5c7c6024d9a7b766d9911348aa3b5d5316555c6aa4a8c53f10dc290e2d8906e6",
+    "sell-time-estimation-aisd-main.zip": "92de48d76b46c590a396ec2cc3b2db7cd44b2cd26a227304d5f2d1c3242c5629",
+    "data\\raw\\tangabid_market_prices.csv": "8c2e3f03d539472a80e98ae5992adaf288d697e9f47b0a945f033b63266b502e",
+    "data\\raw\\tangabid_market_prices_carrots.csv": "5373c32eba308e9873f5c9e90bdb8833de2090ada93c878bf226323e4c691b1e"
+  },
+  "public_payload_file_count": 131,
+  "public_payload_bytes": 8311416,
+  "verification": {
+    "automated_tests": {
+      "tests": 45,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "test_report": "results/test_results.xml",
+    "streamlit_startup": {
+      "/_stcore/health": 200,
+      "/": 200
+    },
+    "browser_visual_qa": "Not performed; Streamlit AppTest covers page rendering and interactions",
+    "python_version": "3.14.2",
+    "isolated_packaged_checkout": [
+      {
+        "command": "python scripts/prepare_data.py",
+        "exit_code": 0
+      },
+      {
+        "command": "python -m pytest -q",
+        "exit_code": 0
+      },
+      {
+        "command": "python scripts/quality_check.py",
+        "exit_code": 0
+      }
+    ],
+    "portability_environment": "Source archive extracted to a temporary folder; same clean workspace-created Python 3.14 virtual environment, no dependency reinstall",
+    "pre_publication_audit": {
+      "decision": "READY FOR PUBLICATION as a disclosed historical prototype",
+      "human_review_required": true,
+      "publication_actions_performed": false,
+      "fresh_dependency_environment_reproduction": "passed; three headline CSVs byte-identical",
+      "displayed_nisr_cells_verified": 300,
+      "structural_leakage_failures": 0,
+      "warnings": [
+        "Same-day source publication unverified",
+        "Prior historical exploration",
+        "Sparse complete future windows",
+        "Cloud build and visual/mobile QA unverified"
+      ]
+    },
+    "economic_value_enhancement": {
+      "all_frozen_artifacts_unchanged": true,
+      "validated_decision_function_unchanged": true,
+      "tests": {
+        "tests": 45,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "publication_status": "READY FOR HUMAN-REVIEWED PUBLICATION as a historical prototype",
+      "push_performed": false,
+      "deployment_performed": false
+    },
+    "final_clean_environment": {
+      "passed": true,
+      "tests": {
+        "tests": 45,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "startup": {
+        "health_http_status": 200,
+        "page_http_status": 200,
+        "scope": "Clean dependency environment and isolated checkout; all four pages exercised by AppTest"
+      },
+      "all_headline_csvs_byte_identical": true,
+      "environment": "New isolated dependency installation, not the working virtual environment"
+    }
+  },
+  "external_link_check": "Not automatically probed; source and deployment links require final human verification",
+  "license_note": "No new open-source license added",
+  "passed": true
+}

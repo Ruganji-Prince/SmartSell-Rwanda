@@ -1,0 +1,42 @@
+{
+  "publication_status": "READY FOR PUBLICATION",
+  "scope": "Historical prototype; actual cloud deployment and browser/mobile QA remain human checks",
+  "tests": {
+    "tests": 45,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "clean_environment": true,
+  "clean_environment_startup": {
+    "health_http_status": 200,
+    "page_http_status": 200,
+    "scope": "Clean dependency environment and isolated checkout; all four pages exercised by AppTest"
+  },
+  "headline_csvs_byte_identical": true,
+  "frozen_benchmark_data_and_code_unchanged": true,
+  "validated_decision_rule_unchanged": true,
+  "nisr_displayed_source_cells_reverified": 300,
+  "public_username_or_device_name_hits": [],
+  "public_eligibility_files": [],
+  "public_env_or_secret_files": [],
+  "publication_boundary": "Approved roots and sources only; virtual environments, caches, local tooling, secrets, IDs and unrelated health PDF excluded",
+  "working_virtual_environment": "Kept locally for user convenience; excluded from Git and package",
+  "identity_attribution": "Original academic author retained as documented attribution; no final team roster or leader invented",
+  "demo_script": "2:45 sequence, 259 narration words, real recording not created",
+  "guide": "docs/PUBLICATION_GUIDE.md",
+  "package_inventory": "dist/publication_file_inventory.csv",
+  "push_performed": false,
+  "deployment_performed": false,
+  "video_recorded": false,
+  "submission_performed": false,
+  "human_actions": [
+    "Confirm team name and leader details",
+    "Review eligibility disclosure and source/IP declaration",
+    "Create or select and push public GitHub repository",
+    "Deploy and verify public Streamlit app",
+    "Add actual URLs and record/add reviewed <=3-minute demo",
+    "Verify public links and final deployed commit",
+    "Submit the official form and retain confirmation"
+  ]
+}

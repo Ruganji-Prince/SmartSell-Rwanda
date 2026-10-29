@@ -1,0 +1,14 @@
+{
+  "crop": "Tomato",
+  "district": "Nyarugenge",
+  "market": "Nyabugogo",
+  "observation_date": "2026-09-28",
+  "price": 500.0,
+  "quantity_kg": 100,
+  "daily_loss_percent": 1,
+  "storage_cost_per_day": 100,
+  "action": "SELL NOW",
+  "horizon": 0,
+  "expected_gain_rwf": 0.0,
+  "explanation": "Selling now gives the highest expected net revenue (ties favor the earliest sale). Any forecast price gain does not outweigh the assumed quantity loss and waiting costs."
+}
