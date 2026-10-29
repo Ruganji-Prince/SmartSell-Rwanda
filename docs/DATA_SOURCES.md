@@ -14,7 +14,7 @@ Price export access: [TangaBid data access](https://tangabid.com/data-access/). 
 
 Official survey catalogue: [NISR microdata portal](https://microdata.statistics.gov.rw/index.php/catalog). Supplied DDI identifier: `RWA-NISR-SAS-2024-v01`. The workbook is supplied locally; do not substitute a guessed direct download URL. Raw SAS 2024/2025 microdata are not included or required by this implementation.
 
-Extraction provenance and workbook SHA-256: `data/processed/nisr/extraction_metadata.json`. Raw CSV hashes and measured audit counts: `results/data_quality_summary.json`. District crosswalk: `data/processed/nisr/district_mapping.csv`. Original files are retained byte-for-byte, including the source ZIP. Processing writes only new output files.
+Extraction provenance and workbook SHA-256: `data/processed/nisr/extraction_metadata.json`. Raw CSV hashes and measured audit counts: `results/data_quality_summary.json`. District crosswalk: `data/processed/nisr/district_mapping.csv`. Published raw CSVs are retained byte-for-byte. The original `sell-time-estimation-aisd-main.zip` remains local only and is intentionally excluded as redundant development history; it is not needed to run or reproduce the final application. Processing writes only new output files.
 
 Reproduce with `python scripts/prepare_data.py`. District indicators preserve their original crop-group headings, with a separate normalized Vegetables-only subset. Use-of-production percentages retain their original numeric precision; they are already percentages, so no guessed denominator division is performed. Blank/dash values remain missing. Quarantine outputs record invalid figures rather than replacing them.
 

@@ -1,5 +1,9 @@
 # SmartSell Rwanda — pre-publication technical and submission audit
 
+## Subsequent publication status
+
+GitHub publication succeeded: **130 public files** on `main` at [https://github.com/Ruganji-Prince/SmartSell-Rwanda](https://github.com/Ruganji-Prince/SmartSell-Rwanda), using the authorized GitHub integration. `sell-time-estimation-aisd-main.zip` is an **intentionally excluded, redundant development archive**. The owner does not approve its public upload; it is not required to run or reproduce the final application. Streamlit deployment, the real demo recording, eligibility-document upload and form submission remain pending. The technical findings below are historical audit records and remain unchanged. See the [final public inventory](PUBLICATION_GUIDE.md#final-public-file-inventory-130-files).
+
 Audit date: **29 October 2026**, Africa/Johannesburg/Rwanda time (UTC+2).
 
 **Decision: READY FOR PUBLICATION as an honestly labelled historical decision-support prototype. Stop for human review.** This does not mean the project is already published, deployed, eligible, or submitted. No GitHub push, deployment, video recording, identity-document upload or submission occurred during this audit. There is no evidence here for current operational advice or realized farmer-income improvement.
@@ -201,7 +205,7 @@ Re-read supplied Preparatory Webinar slides 6–12 and Submission Webinar 2 slid
 | Data plus source links; links alone if files too large | Webinar 2, slide 17 | Yes; original agriculture inputs and processed assets | Review redistribution terms |
 | Screen recording at most three minutes, not a phone recording of desktop screen | Webinar 2, slide 17 | Script only | Record actual app; verify duration and add permitted artifact |
 | Two-member eligibility evidence | Preparatory slide 6; Webinar 2 slide 17 | Instructions only; no documents | Verify both students, at least one Rwandan citizen, clarify privacy route |
-| Public GitHub repository link | Webinar 2, slide 16 | Source package only | Create/review/push and supply actual URL |
+| Public GitHub repository link | Webinar 2, slide 16 | Published: 130 files | [https://github.com/Ruganji-Prince/SmartSell-Rwanda](https://github.com/Ruganji-Prince/SmartSell-Rwanda); development ZIP intentionally excluded |
 | Publicly accessible deployed app link | Webinar 2, slide 16 | Deployment instructions only | Deploy after approval; check unauthenticated access |
 | Private-window test and app awake before review | Webinar 2, slide 15 | Local smoke/interaction checks only | Test actual public URL in incognito and open before review |
 | Originality declaration and source acknowledgement | Preparatory slide 8 | Source acknowledgements/history preserved | Truthful team declaration and final IP/source review |

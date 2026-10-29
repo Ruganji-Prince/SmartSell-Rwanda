@@ -1,6 +1,6 @@
 # Deployment and submission checklist
 
-**Review stage:** no GitHub push, deployment, recording or submission is authorized by this audit. Stop for the team's human review before performing the future steps below.
+GitHub publication succeeded: **130 public files** on `main` at [https://github.com/Ruganji-Prince/SmartSell-Rwanda](https://github.com/Ruganji-Prince/SmartSell-Rwanda), using the authorized GitHub integration. `sell-time-estimation-aisd-main.zip` is an **intentionally excluded, redundant development archive**. The owner does not approve its public upload; it is not required to run or reproduce the final application. Streamlit deployment, the real demo recording, eligibility-document upload and form submission remain pending.
 
 ## Automatically completed
 
@@ -15,9 +15,9 @@
 
 ## Human actions still required
 
-Confirm final team name and team leader details; verify both members' eligibility and reviewed disclosure route; review IP/source terms; create/select and push the public GitHub repository; deploy the Streamlit app; add actual GitHub/app URLs; verify private-window/device access; record/add the real <=3-minute demo; commit final reviewed artifacts; complete the official NISR form and truthful final declaration. These are not automatically completed by having local software ready.
+Confirm final team name and team leader details; verify both members' eligibility and reviewed disclosure route; review IP/source terms; deploy the Streamlit app; add the actual app URL; verify private-window/device access; record/add the real <=3-minute demo; commit final reviewed artifacts; complete the official NISR form and truthful final declaration. These are not automatically completed by having local software ready.
 
-Follow [the publication guide](PUBLICATION_GUIDE.md) for exact commands and the ordered handoff. The guide uses placeholders for real account values and never fabricates a URL or team identity.
+Follow [the publication guide](PUBLICATION_GUIDE.md) for exact commands and the ordered handoff. The guide records the verified repository URL; app/video links remain pending and no team identity is fabricated.
 
 ## Reproduce and inspect
 
@@ -45,7 +45,7 @@ Official deployment reference: [Deploy your app on Community Cloud](https://docs
 
 ## Final submission
 
-- [ ] Public GitHub URL works for an unauthenticated reviewer; every README local link exists.
+- [x] Public GitHub URL works for an unauthenticated reviewer; every README local link exists.
 - [ ] Public deployed app works in incognito, including on the intended demo device. Open it shortly before judging/submission so it is ready.
 - [ ] Demo is a real screen recording <=3 minutes using `docs/DEMO_SCRIPT.md`; check duration and add its actual path or permitted public link. Follow the form's upload requirements.
 - [ ] Review both members' authentic eligibility documents and any public exposure with their permission. Submission Webinar 2, slide 17, explicitly lists eligibility evidence among repository contents. Confirm with the organizer whether a private route or redacted evidence is acceptable before publishing sensitive originals. `student_cards/` is ignored except its instructions; nothing is automatically uploaded. Public inclusion requires that explicit competition requirement and the team's review; do not publish identity material otherwise.
@@ -54,4 +54,4 @@ Official deployment reference: [Deploy your app on Community Cloud](https://docs
 - [ ] Truthfully declare originality and acknowledge all sources, including the preserved academic development history and tool-assisted work as required by the form.
 - [ ] Complete the [NISR submission form](https://statistics.gov.rw/form/2026-hackathon-submission-form) with the actual repository/app URLs and required evidence. The supplied submission webinar states **30 October 2026**; verify the organizer's exact cutoff and any updates.
 
-Local automated completion is documented in `FINAL_STATUS.md` and `results/quality_checks.json`. Boxes above remain intentionally unchecked because final account actions, document disclosure, deployed incognito checks and submission require the actual team.
+Local automated completion is documented in `FINAL_STATUS.md` and `results/quality_checks.json`. GitHub publication is complete. Remaining unchecked boxes require subsequent team actions, deployment verification, a real recording or submission.

@@ -11,13 +11,13 @@ Intended users are smallholder farmers, cooperatives and agricultural planners r
 Built for **NISR 2026 Big Data Hackathon — Track 1: Agricultural Productivity**. The problem connects agricultural market linkages and post-harvest management to Rwanda's productivity priorities. No government partnership, endorsement or measured farmer-income improvement is claimed.
 
 **Public app:** Pending deployment — replace with the actual Streamlit URL.  
-**Public repository:** Pending account action — insert the actual GitHub URL.  
+**Public repository:** https://github.com/Ruganji-Prince/SmartSell-Rwanda  
 **Demo video:** Pending recording — instructions in [demo/README.md](demo/README.md).  
 **Start here:** [one-page project summary](docs/PROJECT_SUMMARY.md), [final status](FINAL_STATUS.md), [manual inputs](REQUIRED_MANUAL_INPUTS.md).
 
-Pre-publication review: [technical and submission audit](docs/PRE_PUBLICATION_AUDIT.md). This audit does not authorize publication, deployment or submission; human review remains pending.
+Pre-publication review: [technical and submission audit](docs/PRE_PUBLICATION_AUDIT.md). GitHub publication is complete; deployment and submission remain pending.
 
-Human handoff: [exact GitHub commands, Streamlit deployment and NISR submission order](docs/PUBLICATION_GUIDE.md). The final publication package has a separate file inventory; no account action is performed automatically.
+Human handoff: [exact GitHub commands, Streamlit deployment and NISR submission order](docs/PUBLICATION_GUIDE.md). The final public package contains **130 files**; see the [final inventory](docs/PUBLICATION_GUIDE.md#final-public-file-inventory-130-files). The redundant development archive `sell-time-estimation-aisd-main.zip` is intentionally excluded and is not required to run or reproduce the final application.
 
 ## What the app does
 
@@ -140,7 +140,7 @@ Exact direct dependencies are pinned in [requirements.txt](requirements.txt); th
 
 ## Deployment, responsibility and attribution
 
-Deploy the reviewed public GitHub repository through Streamlit Community Cloud, choosing `app.py` and Python 3.14. [Exact deployment/submission steps](docs/SUBMISSION_CHECKLIST.md) include incognito verification, <=3-minute demo and both members' eligibility evidence. Public URLs and account actions remain pending in [REQUIRED_MANUAL_INPUTS.md](REQUIRED_MANUAL_INPUTS.md).
+Deploy the reviewed public GitHub repository through Streamlit Community Cloud, choosing `app.py` and Python 3.14. [Exact deployment/submission steps](docs/SUBMISSION_CHECKLIST.md) include incognito verification, <=3-minute demo and both members' eligibility evidence. The repository URL is verified; the app URL, recording and remaining account actions are pending in [REQUIRED_MANUAL_INPUTS.md](REQUIRED_MANUAL_INPUTS.md).
 
 This is an honest working prototype for comparing assumptions. Verify buyer offers and crop conditions before acting; forecasts and loss scenarios cannot guarantee profit. Read [limitations](docs/ASSUMPTIONS_AND_LIMITATIONS.md), [methodology](docs/METHODOLOGY.md), and [judging alignment](docs/HACKATHON_JUDGING_ALIGNMENT.md).
 

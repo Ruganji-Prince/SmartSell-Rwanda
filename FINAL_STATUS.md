@@ -2,17 +2,17 @@
 
 ## Publication readiness
 
-**READY FOR PUBLICATION** as an honest historical prototype, pending human review. Code, processed assets, documentation, economic explanation and automated checks are prepared. No GitHub push, deployment, recording, ID upload or submission has been performed automatically. See [the human publication guide](docs/PUBLICATION_GUIDE.md) for exact future commands and account actions.
+GitHub publication succeeded: **130 public files** on `main` at [https://github.com/Ruganji-Prince/SmartSell-Rwanda](https://github.com/Ruganji-Prince/SmartSell-Rwanda), using the authorized GitHub integration. `sell-time-estimation-aisd-main.zip` is an **intentionally excluded, redundant development archive**. The owner does not approve its public upload; it is not required to run or reproduce the final application. Streamlit deployment, the real demo recording, eligibility-document upload and form submission remain pending. See [the publication guide](docs/PUBLICATION_GUIDE.md) for the final inventory and future steps.
 
 ## Pre-publication review
 
-See [the technical and submission audit](docs/PRE_PUBLICATION_AUDIT.md). Technical decision: READY FOR PUBLICATION as a historical prototype, with disclosed warnings. **STOP for human review: no push, deployment, video recording, identity upload or submission has been performed or authorized by this audit.** Benchmark and simulation findings remain unchanged.
+See [the technical and submission audit](docs/PRE_PUBLICATION_AUDIT.md). Technical decision: READY FOR PUBLICATION as a historical prototype, with disclosed warnings. The audit did not itself authorize account actions; GitHub publication was subsequently explicitly authorized and completed. Deployment, recording, identity upload and submission remain pending. Benchmark and simulation findings remain unchanged.
 
 ## Final economic-value enhancement
 
 Advisor now shows current economics, 1/2/3-day break-even future prices, required RWF/kg/percentage uplift, forecast-versus-threshold explanations, and editable storage-loss sensitivity (illustrative/user-defined only). The verified 100 kg example at 500 RWF/kg, 1% daily loss and 100 RWF/day storage has a one-day equality threshold of 506.060606 RWF/kg: a whole-franc future price of 507 would net 50,093 RWF, but the actual persistence forecast remains 500 and SELL NOW remains selected. No forecast/evaluation definitions or historical results change.
 
-Optional market comparison was inspected but not added: the latest date has three quoted markets per crop, yet those 14 October observations are stale. No routing, transport optimization or highest-price travel recommendation is claimed. See `results/enhancement/` for economic examples and preservation evidence. No public push or deployment is performed.
+Optional market comparison was inspected but not added: the latest date has three quoted markets per crop, yet those 14 October observations are stale. No routing, transport optimization or highest-price travel recommendation is claimed. See `results/enhancement/` for economic examples and preservation evidence. GitHub publication is complete; deployment remains pending.
 
 ## Completed automatically
 
@@ -44,7 +44,7 @@ Complete suite: **45 tests**, 0 failures, 0 errors, 0 skipped. Detailed report: 
 
 ## Deployed-app readiness
 
-**Streamlit started successfully** in local verification: health and page endpoints returned HTTP 200. Current recorded local statuses: {'/_stcore/health': 200, '/': 200}. The clean-environment reproduction record reports: {'health_http_status': 200, 'page_http_status': 200, 'scope': 'Clean dependency environment and isolated checkout; all four pages exercised by AppTest'}. AppTest exercises all four pages and the verified historical replay. No external deployment, real-browser visual QA or mobile-layout verification is claimed. Public URLs await account actions. Current advice is withheld because observations are historical; replay remains functional.
+**Streamlit started successfully** in local verification: health and page endpoints returned HTTP 200. Current recorded local statuses: {'/_stcore/health': 200, '/': 200}. The clean-environment reproduction record reports: {'health_http_status': 200, 'page_http_status': 200, 'scope': 'Clean dependency environment and isolated checkout; all four pages exercised by AppTest'}. AppTest exercises all four pages and the verified historical replay. No external deployment, real-browser visual QA or mobile-layout verification is claimed. The repository URL is verified above; the app URL awaits deployment. Current advice is withheld because observations are historical; replay remains functional.
 
 ## Clean-environment reproducibility
 
@@ -58,9 +58,9 @@ Price data end **14 October 2026**. Raw SAS 2024/2025 microdata are absent. NISR
 
 1. Confirm the final team name, team leader/contact details, both members' eligibility and permitted identity-document disclosure.
 2. Review data redistribution, competition IP/originality conditions and the exact staged public files.
-3. Create/select and push the reviewed public GitHub repository; verify README rendering and unauthenticated access.
+3. Completed: publish 130 reviewed files and verify README rendering and unauthenticated repository access.
 4. Deploy `app.py` to Streamlit Community Cloud; verify all pages and the historical replay in incognito and on the intended device.
-5. Add actual GitHub/app URLs, record the real <=3-minute screen demo, and add its reviewed path/link.
+5. Keep the verified repository URL; after deployment add the actual app URL, record the real <=3-minute screen demo, and add its reviewed path/link.
 6. Commit/push final reviewed artifacts, verify every public link and confirm the deployed revision.
 7. Complete the official form and truthful final declaration, then retain the actual submission confirmation.
 
@@ -86,8 +86,8 @@ Tested Python 3.14.2. On Linux/macOS use `.venv/bin/python`. Regenerate reports 
 
 1. Review the real team/eligibility details, source redistribution and webinar IP/originality terms.
 2. Run the commands above; inspect the dated historical demonstration and metrics.
-3. Create the public GitHub repository and upload reviewed source, preserved data, processed assets, models, results and documents. Do not upload `.venv`, caches or private IDs automatically.
+3. Completed: publish the reviewed 130-file public package. Keep the legacy development ZIP, environments, caches, secrets and private IDs excluded.
 4. In Streamlit Community Cloud, sign in with GitHub, choose Create app, select repository/branch, set `app.py` and Python 3.14 under advanced settings, then deploy. No secrets are needed.
-5. Add real repository/app URLs to README and test the deployed app in an incognito window.
+5. Keep the verified repository URL in README; after deployment add the actual app URL and test it in an incognito window.
 6. Record the <=3-minute actual app demo, review eligibility-document disclosure, add permitted submission artifacts, and commit/push final changes.
 7. Open the app shortly before review and complete the NISR form with the actual links and required evidence. The supplied webinar states 30 October 2026; verify the exact organizer cutoff.
