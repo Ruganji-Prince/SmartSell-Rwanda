@@ -17,18 +17,21 @@ Built for **NISR 2026 Big Data Hackathon — Track 1: Agricultural Productivity*
 
 Pre-publication review: [technical and submission audit](docs/PRE_PUBLICATION_AUDIT.md). GitHub publication is complete; deployment and submission remain pending.
 
-Human handoff: [exact GitHub commands, Streamlit deployment and NISR submission order](docs/PUBLICATION_GUIDE.md). The final public package contains **130 files**; see the [final inventory](docs/PUBLICATION_GUIDE.md#final-public-file-inventory-130-files). The redundant development archive `sell-time-estimation-aisd-main.zip` is intentionally excluded and is not required to run or reproduce the final application.
+Human handoff: [exact GitHub commands, Streamlit deployment and NISR submission order](docs/PUBLICATION_GUIDE.md). The final public package contains **139 files**; see the [final inventory](docs/PUBLICATION_GUIDE.md#final-public-file-inventory-139-files). The redundant development archive `sell-time-estimation-aisd-main.zip` is intentionally excluded and is not required to run or reproduce the final application.
 
 ## What the app does
 
-1. **SmartSell Advisor:** choose crop, district and market; enter kg, an editable daily loss scenario and whole-lot RWF/day costs. See observed price/date, forecasts/error bands, current and waiting economics, **break-even prices and required price uplift**, and SELL NOW or WAIT. Edit the separate illustrative storage-loss sensitivity scenarios. Download the calculation.
-2. **Market Trends:** inspect the actual price history, reporting dates and recent volatility.
-3. **NISR Agricultural Context:** compare published Vegetables production, yield and area by district/season, plus national sold/stored/post-harvest shares and sowing windows.
-4. **Methodology & Limitations:** inspect the actual benchmark, simulated outcomes, evidence limits and assumptions.
+1. **Home:** start with a short explanation and choose Check my crop or See market prices.
+2. **Sell or Wait:** choose crop, district and market; enter quantity, illustrative daily crop loss and whole-harvest waiting costs; then press **Check the best selling time**. The result explains SELL NOW or WAIT and the price needed to cover waiting. Detailed calculations, empirical error bands and editable loss sensitivity remain available in expanders.
+3. **Market Prices:** see dated observed prices, recent low/high/change summaries and a readable chart. Detailed records are optional.
+4. **Agriculture Insights:** explore official historical Vegetables production, area, yield and national production use. These are sector statistics, not Tomato/Carrot-specific loss estimates.
+5. **About SmartSell:** inspect How it works, Data sources, Model performance, Limitations and For researchers.
 
-No login or API key is needed. **Latest available observation: 14 October 2026.** Current-date advice is withheld when no same-day price exists; data older than seven days are flagged stale. Enable **Historical replay (demonstration only)** to explore dated held-out observations. The app never calls historical prices today's price.
+The responsive frontend uses NISR-inspired blue, navy and light-grey colours. Rwanda's current date and the dataset's latest observation are computed dynamically; local file updates invalidate the asset cache on the next refresh. No live feed or new observations are fabricated.
 
-For a working example choose **Tomato → Nyarugenge → Nyabugogo**, enable replay, and select **28 September 2026**. Enter 100 kg, illustrative 1% daily quantity loss and 100 RWF/day storage. The observed price is 500 RWF/kg; the measured persistence forecast supplies no price-rise signal, so SELL NOW maximizes expected net revenue. This is an explanation of a historical scenario, not current advice.
+No login or API key is needed. **Latest available observation: 14 October 2026.** Current-date advice is withheld when no same-day price exists; data older than seven days are flagged stale. Open **Explore a past example** and enable **Use historical example** to explore dated held-out observations. The app never calls historical prices today's price.
+
+For a working example open **Sell or Wait**, choose **Tomato → Nyarugenge → Nyabugogo**, open **Explore a past example**, enable **Use historical example**, and select **28 September 2026**. Enter 100 kg, illustrative 1% daily quantity loss and 100 RWF/day storage, then press **Check the best selling time**. The observed price is 500 RWF/kg; the measured persistence forecast supplies no price-rise signal, so SELL NOW maximizes expected net revenue. This is an explanation of a historical scenario, not current advice.
 
 Tomorrow's break-even price is **506.06 RWF/kg**, requiring about **1.21%** uplift merely to match selling now. At whole-franc prices, 507 RWF/kg would beat that threshold: 99 retained kg × 507 − 100 = **50,093 RWF**, versus **50,000 RWF** now. A hypothetical higher price of 505 would still net only **49,895 RWF**. These examples are scenario arithmetic, not substituted forecasts or claimed income gains. Equality at break-even favors immediate sale; waiting must exceed it.
 

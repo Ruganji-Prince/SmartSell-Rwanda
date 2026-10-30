@@ -2,7 +2,7 @@
 
 ## Subsequent publication status
 
-GitHub publication succeeded: **130 public files** on `main` at [https://github.com/Ruganji-Prince/SmartSell-Rwanda](https://github.com/Ruganji-Prince/SmartSell-Rwanda), using the authorized GitHub integration. `sell-time-estimation-aisd-main.zip` is an **intentionally excluded, redundant development archive**. The owner does not approve its public upload; it is not required to run or reproduce the final application. Streamlit deployment, the real demo recording, eligibility-document upload and form submission remain pending. The technical findings below are historical audit records and remain unchanged. See the [final public inventory](PUBLICATION_GUIDE.md#final-public-file-inventory-130-files).
+GitHub publication succeeded: **139 public files** on `main` at [https://github.com/Ruganji-Prince/SmartSell-Rwanda](https://github.com/Ruganji-Prince/SmartSell-Rwanda), using the authorized GitHub integration. `sell-time-estimation-aisd-main.zip` is an **intentionally excluded, redundant development archive**. The owner does not approve its public upload; it is not required to run or reproduce the final application. Streamlit deployment, the real demo recording, eligibility-document upload and form submission remain pending. The technical findings below are historical audit records and remain unchanged. See the [final public inventory](PUBLICATION_GUIDE.md#final-public-file-inventory-139-files).
 
 Audit date: **29 October 2026**, Africa/Johannesburg/Rwanda time (UTC+2).
 
@@ -205,7 +205,7 @@ Re-read supplied Preparatory Webinar slides 6–12 and Submission Webinar 2 slid
 | Data plus source links; links alone if files too large | Webinar 2, slide 17 | Yes; original agriculture inputs and processed assets | Review redistribution terms |
 | Screen recording at most three minutes, not a phone recording of desktop screen | Webinar 2, slide 17 | Script only | Record actual app; verify duration and add permitted artifact |
 | Two-member eligibility evidence | Preparatory slide 6; Webinar 2 slide 17 | Instructions only; no documents | Verify both students, at least one Rwandan citizen, clarify privacy route |
-| Public GitHub repository link | Webinar 2, slide 16 | Published: 130 files | [https://github.com/Ruganji-Prince/SmartSell-Rwanda](https://github.com/Ruganji-Prince/SmartSell-Rwanda); development ZIP intentionally excluded |
+| Public GitHub repository link | Webinar 2, slide 16 | Published: 139 files | [https://github.com/Ruganji-Prince/SmartSell-Rwanda](https://github.com/Ruganji-Prince/SmartSell-Rwanda); development ZIP intentionally excluded |
 | Publicly accessible deployed app link | Webinar 2, slide 16 | Deployment instructions only | Deploy after approval; check unauthenticated access |
 | Private-window test and app awake before review | Webinar 2, slide 15 | Local smoke/interaction checks only | Test actual public URL in incognito and open before review |
 | Originality declaration and source acknowledgement | Preparatory slide 8 | Source acknowledgements/history preserved | Truthful team declaration and final IP/source review |
@@ -267,3 +267,7 @@ All 300 displayed NISR workbook cells were reverified; NISR claims remain vegeta
 Publication now uses a shared allowlist for the source ZIP and inventory: required code/data/docs and original official agriculture/submission sources are retained; runtime/local tooling, secret files, private eligibility material and the unrelated health PDF are excluded without deleting originals. `dist/publication_file_inventory.csv` records each packaged path, byte size and SHA-256. [The publication guide](PUBLICATION_GUIDE.md) provides exact staged-file review/GitHub commands, Streamlit settings and NISR submission order. Final evidence is in `results/final_publication_review.json`, `results/quality_checks.json`, `results/audit/reproducibility.json` and `FINAL_STATUS.md`.
 
 **READY FOR PUBLICATION as a historical prototype. Stop for human review.** Team/leader confirmation, reviewed eligibility disclosure, actual GitHub/app URLs, a real <=3-minute screen recording, public-link/device checks and the final form/declaration remain human actions. No push, deployment, recording or submission has been performed automatically.
+
+## Subsequently approved frontend publication
+
+The owner approved publication of the frontend redesign with 139 public files, including nine UI modules. The earlier scientific audit and its measurements remain historical records. The updated complete test suite passed 60 tests; recorded model/economic artifacts remain unchanged. All pages and the reference example were checked in a real headless browser at desktop and phone widths. Streamlit deployment, demo recording, identity-document upload and submission remain pending.

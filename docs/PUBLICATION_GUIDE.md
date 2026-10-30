@@ -1,6 +1,6 @@
 # Human publication and submission guide
 
-GitHub publication succeeded: **130 public files** on `main` at [https://github.com/Ruganji-Prince/SmartSell-Rwanda](https://github.com/Ruganji-Prince/SmartSell-Rwanda), using the authorized GitHub integration. `sell-time-estimation-aisd-main.zip` is an **intentionally excluded, redundant development archive**. The owner does not approve its public upload; it is not required to run or reproduce the final application. Streamlit deployment, the real demo recording, eligibility-document upload and form submission remain pending. The remaining deployment and submission instructions describe future steps, not actions performed by this cleanup. The software is a historical prototype: latest available observed price data end on 14 October 2026, and current advice is withheld.
+GitHub publication succeeded: **139 public files** on `main` at [https://github.com/Ruganji-Prince/SmartSell-Rwanda](https://github.com/Ruganji-Prince/SmartSell-Rwanda), using the authorized GitHub integration. `sell-time-estimation-aisd-main.zip` is an **intentionally excluded, redundant development archive**. The owner does not approve its public upload; it is not required to run or reproduce the final application. Streamlit deployment, the real demo recording, eligibility-document upload and form submission remain pending. The remaining deployment and submission instructions describe future steps, not actions performed by this cleanup. The software is a historical prototype: latest available observed price data end on 14 October 2026, and current advice is withheld.
 
 ## 1. Confirm people, privacy and source rights
 
@@ -26,19 +26,19 @@ python -m venv .venv
 
 On Linux/macOS substitute `.venv/bin/python`. If `python` opens the Windows Store, use the installed Python 3.14 executable/launcher to create the environment, then use its relative interpreter above. Do not replace the pinned dependencies or select a different forecasting model simply for presentation. Preparation also extracts NISR tables; no unavailable microdata or API key is required. For a source-copy reproduction with the invoking environment: `python scripts/verify_reproducibility.py`. The final readiness record documents the separately installed clean-environment run.
 
-Rehearse Tomato -> Nyarugenge -> Nyabugogo -> Historical replay -> 28 September 2026, 100 kg, 1% daily loss, 100 RWF/day storage, zero other costs. Forecasts remain 500 RWF/kg and SELL NOW. Equality thresholds are 506.06, 512.19 and 518.40 RWF/kg; waiting must exceed them. Visit all four pages. Browser layout and the eventual public-cloud build need human review beyond the automated AppTest checks.
+Rehearse Tomato -> Nyarugenge -> Nyabugogo -> Historical replay -> 28 September 2026, 100 kg, 1% daily loss, 100 RWF/day storage, zero other costs. Forecasts remain 500 RWF/kg and SELL NOW. Equality thresholds are 506.06, 512.19 and 518.40 RWF/kg; waiting must exceed them. Open Sell or Wait, use Explore a past example → Use historical example, and submit the harvest form with Check the best selling time. Review all five pages. The local redesign was checked in desktop/phone browser viewports; the eventual public-cloud build and physical presentation device remain unverified.
 
 ## 3. Final publication source and intentional exclusions
 
-The final public package is the 130-file inventory below. The local staging directory and older `dist/SmartSell_Rwanda_submission.zip` may still contain `sell-time-estimation-aisd-main.zip`. This redundant development archive is intentionally excluded, is not approved for public upload, and is not required to run or reproduce the final application. Do not republish the older bundle wholesale. Existing source allowlist and packaging scripts predate this exclusion; use the final inventory for any future upload and explicitly omit the legacy ZIP.
+The final public package is the 139-file inventory below. The local staging directory and older `dist/SmartSell_Rwanda_submission.zip` may still contain `sell-time-estimation-aisd-main.zip`. This redundant development archive is intentionally excluded, is not approved for public upload, and is not required to run or reproduce the final application. Do not republish the older bundle wholesale. Existing source allowlist and packaging scripts predate this exclusion; use the final inventory for any future upload and explicitly omit the legacy ZIP.
 
 The public files retain source, preserved price CSVs, NISR agricultural sources, processed assets, model metadata, results, tests and documented academic history under `docs/legacy_aisd/`. The unrelated health PDF, private eligibility documents, environments, caches and secrets remain excluded. `student_cards/README.md` is instructions only.
 
-The local `dist/publication_file_inventory.csv` records the final 130 public paths, byte sizes and SHA-256 hashes. The older ZIP and its `dist/package_manifest.json` describe a historical build, not the final public package.
+The local `dist/publication_file_inventory.csv` records the final 139 public paths, byte sizes and SHA-256 hashes. The older ZIP and its `dist/package_manifest.json` describe a historical build, not the final public package.
 
 ## 4. GitHub publication completed
 
-GitHub publication succeeded: **130 public files** on `main` at [https://github.com/Ruganji-Prince/SmartSell-Rwanda](https://github.com/Ruganji-Prince/SmartSell-Rwanda), using the authorized GitHub integration. `sell-time-estimation-aisd-main.zip` is an **intentionally excluded, redundant development archive**. The owner does not approve its public upload; it is not required to run or reproduce the final application. Streamlit deployment, the real demo recording, eligibility-document upload and form submission remain pending.
+GitHub publication succeeded: **139 public files** on `main` at [https://github.com/Ruganji-Prince/SmartSell-Rwanda](https://github.com/Ruganji-Prince/SmartSell-Rwanda), using the authorized GitHub integration. `sell-time-estimation-aisd-main.zip` is an **intentionally excluded, redundant development archive**. The owner does not approve its public upload; it is not required to run or reproduce the final application. Streamlit deployment, the real demo recording, eligibility-document upload and form submission remain pending.
 
 The authenticated account was `Ruganji-Prince`. The GitHub integration uploaded blobs, verified their Git hashes, created a tree and commit, and advanced `main` without force-pushing. The initial README commit was preserved. Source publication commit: `1cde34ff15cb02cb4dae874bbcfad85f371b12db`. A subsequent documentation-only commit records the final publication status and intentional exclusion.
 
@@ -51,7 +51,7 @@ Unauthenticated repository access returned HTTP 200; rendered README content and
 3. Set the main file path to **app.py**. It must be the extracted root entrypoint, not a ZIP path or a local-machine path.
 4. Open **Advanced settings**, select **Python 3.14**, and save. This is the locally tested runtime family covered by the documented support policy. Pinned package metadata/Linux candidate wheels were checked; a successful Community Cloud build is not claimed until the actual deployment completes. No secrets are needed.
 5. Choose an available app address and deploy. Inspect build logs for dependency, import or missing-file errors. Do not train at app startup or upload `.venv`; the shipped assets support the demo.
-6. Open the returned public URL. Verify SmartSell Advisor, Market Trends, NISR Agricultural Context and Methodology & Limitations. Current stale advice must remain withheld.
+6. Open the returned public URL. Verify Home, Sell or Wait, Market Prices, Agriculture Insights and About SmartSell. Current stale advice must remain withheld.
 7. Test the exact historical path above. Confirm 500 RWF/kg forecasts, SELL NOW, the break-even thresholds, required uplift and editable sensitivity. Check that NISR labels say vegetable-sector context.
 8. Repeat in a private/incognito window without signing in, then on the intended demo device/narrow screen. This verifies actual public access and layout, which local automated tests cannot establish.
 
@@ -77,7 +77,7 @@ Use the real recording filename, not a nonexistent example. If a permitted exter
 ## 7. Final NISR submission order
 
 1. Confirm team name, team leader/contact details and both members' eligibility; resolve the identity-document privacy route and review IP/source/originality requirements.
-2. Completed: publish and verify the final 130-file public repository; keep the development ZIP excluded.
+2. Completed: publish and verify the final 139-file public repository; keep the development ZIP excluded.
 3. Deploy the reviewed branch to Streamlit; verify the public app and the exact historical replay in incognito and on the presentation device.
 4. Add actual GitHub/app URLs; record and add the real <=3-minute demo; include only intentionally reviewed eligibility evidence through the permitted route.
 5. Commit/push final changes; confirm GitHub links, recording access and deployed revision match the submission. Open the app shortly before organizer review so it is ready.
@@ -85,9 +85,9 @@ Use the real recording filename, not a nonexistent example. If a permitted exter
 
 The supplied webinar states **30 October 2026**; verify the exact organizer cutoff and any updates directly. Do not claim the form is complete until you actually submit it. GitHub publication is complete; no form submission or cloud deployment has been performed.
 
-## Final public file inventory (130 files)
+## Final public file inventory (139 files)
 
-Intentionally excluded: `sell-time-estimation-aisd-main.zip` (redundant development archive; not approved for public disclosure). These 130 paths constitute the final public package:
+The approved frontend adds nine `src/ui/` modules to the original 130-file package. The redundant development archive `sell-time-estimation-aisd-main.zip` remains intentionally excluded and is not approved for public upload. Local environments, caches, secrets and review artifacts are also excluded.
 
 ```text
 .gitignore
@@ -213,6 +213,15 @@ src/forecasting.py
 src/localization.py
 src/nisr_context.py
 src/preprocessing.py
+src/ui/__init__.py
+src/ui/about.py
+src/ui/advisor.py
+src/ui/agriculture_context.py
+src/ui/components.py
+src/ui/data.py
+src/ui/home.py
+src/ui/market_trends.py
+src/ui/styles.py
 src/utilities.py
 student_cards/README.md
 tests/test_app.py
