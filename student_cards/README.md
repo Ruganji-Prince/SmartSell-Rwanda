@@ -1,5 +1,1 @@
-# Eligibility documents — manual review required
 
-The supplied webinar asks for evidence for both team members and says teams contain two students, including at least one Rwandan citizen. Supply authentic documents and review privacy before publication. Do not fabricate documents or upload another person's ID without authorization. IDs are ignored by Git by default. Decide the permitted submission route and review any public exposure with both members before intentionally adding a file. No eligibility documents are currently included.
-
-Submission Webinar 2, slide 17, explicitly lists eligibility evidence among GitHub repository contents. This is a source requirement to clarify with the organizer, not authorization to upload sensitive originals automatically. Confirm whether a private or redacted route is acceptable. Do not put eligibility material in a public repository unless that explicit competition requirement applies and the team has reviewed the exact documents and exposure. This audit publishes nothing.
